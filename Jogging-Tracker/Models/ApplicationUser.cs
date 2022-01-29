@@ -8,5 +8,6 @@ namespace Jogging_Tracker.Models
 {
     public class ApplicationUser : IdentityUser
     {
+
     }
 }
