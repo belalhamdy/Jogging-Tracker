@@ -17,8 +17,5 @@ namespace Jogging_Tracker.DTOs.Account
 
         [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }
-
-        [Required(ErrorMessage = "Name is required")]
-        public string Name { get; set; }
     }
 }
