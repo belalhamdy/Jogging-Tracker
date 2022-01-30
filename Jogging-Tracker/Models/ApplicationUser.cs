@@ -8,6 +8,6 @@ namespace Jogging_Tracker.Models
 {
     public class ApplicationUser : IdentityUser
     {
-
+        public virtual ICollection<JoggingRecord> UserJoggingRecords{ get; set; }
     }
 }
