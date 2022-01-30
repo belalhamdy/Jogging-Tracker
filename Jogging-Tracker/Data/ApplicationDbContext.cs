@@ -14,5 +14,7 @@ namespace Jogging_Tracker.Data
         {
 
         }
+        public DbSet<JoggingRecord> JoggingRecords { get; set; }
+
     }
 }
