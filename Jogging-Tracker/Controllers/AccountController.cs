@@ -122,6 +122,5 @@ namespace Jogging_Tracker.Controllers
                 role = string.Join(",", userRoles)
             });
         }
-
     }
 }
