@@ -26,8 +26,7 @@ namespace Jogging_Tracker.Controllers
         /// <param name="roleManager"></param>
         /// <param name="configuration"></param>
         public JoggingRecordController(ApplicationDbContext dbContext, UserManager<ApplicationUser> userManager,
-            RoleManager<IdentityRole> roleManager,
-            IConfiguration configuration)
+            RoleManager<IdentityRole> roleManager, IConfiguration configuration)
         {
             _dbContext = dbContext;
             _userManager = userManager;
