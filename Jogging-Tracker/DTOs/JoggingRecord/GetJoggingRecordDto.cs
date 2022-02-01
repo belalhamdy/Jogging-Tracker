@@ -2,5 +2,6 @@
 {
     public class GetJoggingRecordDto
     {
+        public int RecordId { get; set; }
     }
 }
