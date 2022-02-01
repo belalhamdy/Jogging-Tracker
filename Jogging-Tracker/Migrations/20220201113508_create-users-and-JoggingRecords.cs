@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Jogging_Tracker.Migrations
 {
-    public partial class createusersandjoggingRecords : Migration
+    public partial class createusersandJoggingRecords : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

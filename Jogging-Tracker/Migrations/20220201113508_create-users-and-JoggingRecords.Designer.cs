@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Jogging_Tracker.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220201112139_create-users-and-joggingRecords")]
-    partial class createusersandjoggingRecords
+    [Migration("20220201113508_create-users-and-JoggingRecords")]
+    partial class createusersandJoggingRecords
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
