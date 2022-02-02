@@ -42,7 +42,19 @@ namespace Jogging_Tracker
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-
+            
+            // password configuration
+            services.Configure<IdentityOptions>(options =>
+            {
+                // Default Password settings.
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequiredLength = 4;
+                options.Password.RequiredUniqueChars = 1;
+            });
+            
             // Adding Authentication  
             services.AddAuthentication(options =>
                 {
@@ -95,6 +107,8 @@ namespace Jogging_Tracker
                 });
 
             });
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -104,6 +118,7 @@ namespace Jogging_Tracker
             {
                 app.UseDeveloperExceptionPage();
             }
+
             app.UseSwagger();
 
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Jogging_Tracker v1"));
