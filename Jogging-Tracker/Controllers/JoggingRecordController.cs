@@ -52,6 +52,38 @@ namespace Jogging_Tracker.Controllers
         }
 
         /// <summary>
+        /// Get jogging records of the logged in user.
+        /// </summary>
+        /// <response code="200">Returned if the computer inserted successfully</response>
+        /// <response code="500">Returned if an internal server error</response>
+        [HttpGet]
+        [Route("get-my-jogging")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
+        [Authorize(Roles = UserRoles.User)]
+        public IActionResult GetMyJogging()
+        {
+            var userId = GetUserIds(Request);
+            return Ok(_dbContext.JoggingRecords.Where(x => x.UserId.Equals(userId)).ToList());
+        }
+        
+        /// <summary>
+        /// Get jogging records of a user.
+        /// </summary>
+        /// <param name="userId">The record to be added</param>
+        /// <response code="200">Returned if the computer inserted successfully</response>
+        /// <response code="500">Returned if an internal server error</response>
+        [HttpGet]
+        [Route("get-user-jogging")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
+        [Authorize(Roles = UserRoles.Admin)]
+        public IActionResult GetMyJogging(string userId)
+        {
+            return Ok(_dbContext.JoggingRecords.Where(x => x.UserId.Equals(userId)).ToList());
+        }
+
+        /// <summary>
         ///  Gets user IDs given token.
         /// </summary>
         /// <param name="request">The request that contains token.</param>
