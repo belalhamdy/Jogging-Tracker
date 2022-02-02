@@ -64,7 +64,7 @@ namespace Jogging_Tracker.Controllers
         /// <response code="200">Returned if user is registered successfully</response>
         /// <response code="500">Returned if an internal server error</response>
         [HttpPost]
-        [Route("register")]
+        [Route("register-user")]
         [AllowAnonymous]
         public async Task<IActionResult> RegisterUser([FromBody] RegisterDto model)
         {
@@ -87,7 +87,7 @@ namespace Jogging_Tracker.Controllers
         /// <response code="200">Returned if user is registered successfully</response>
         /// <response code="500">Returned if an internal server error</response>
         [HttpPost]
-        [Route("register")]
+        [Route("register-admin")]
         [AllowAnonymous]
         public async Task<IActionResult> RegisterAdmin([FromBody] RegisterDto model)
         {
@@ -110,7 +110,7 @@ namespace Jogging_Tracker.Controllers
         /// <response code="200">Returned if user is registered successfully</response>
         /// <response code="500">Returned if an internal server error</response>
         [HttpPost]
-        [Route("register")]
+        [Route("register-manager")]
         [AllowAnonymous]
         public async Task<IActionResult> RegisterUserManager([FromBody] RegisterDto model)
         {
