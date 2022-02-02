@@ -9,9 +9,12 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using Jogging_Tracker.Data;
 using Jogging_Tracker.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -33,16 +36,27 @@ namespace Jogging_Tracker
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Enables frontend to use this server as its backend
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                        //builder.WithOrigins("https://localhost").AllowAnyHeader().AllowAnyMethod();
+                    });
+            });
 
             services.AddControllers();
 
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             // For Identity  
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-            
+
             // password configuration
             services.Configure<IdentityOptions>(options =>
             {
@@ -54,7 +68,7 @@ namespace Jogging_Tracker
                 options.Password.RequiredLength = 4;
                 options.Password.RequiredUniqueChars = 1;
             });
-            
+
             // Adding Authentication  
             services.AddAuthentication(options =>
                 {
@@ -80,7 +94,7 @@ namespace Jogging_Tracker
 
             services.AddSwaggerGen(swagger =>
             {
-                swagger.SwaggerDoc("v1", new OpenApiInfo { Title = "Jogging Tracker", Version = "v1" });
+                swagger.SwaggerDoc("v1", new OpenApiInfo {Title = "Jogging Tracker", Version = "v1"});
                 swagger.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
                     Name = "Authorization",
@@ -88,7 +102,8 @@ namespace Jogging_Tracker
                     Scheme = "Bearer",
                     BearerFormat = "JWT",
                     In = ParameterLocation.Header,
-                    Description = "Enter 'Bearer' [space] and then your valid token in the text input below.\r\n\r\nExample: \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\"",
+                    Description =
+                        "Enter 'Bearer' [space] and then your valid token in the text input below.\r\n\r\nExample: \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\"",
                 });
                 swagger.AddSecurityRequirement(new OpenApiSecurityRequirement
                 {
@@ -101,13 +116,24 @@ namespace Jogging_Tracker
                                 Id = "Bearer"
                             }
                         },
-                        new string[] {}
-
+                        new string[] { }
                     }
                 });
-
+                // Set the comments path for the Swagger JSON and UI.
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                swagger.IncludeXmlComments(xmlPath);
             });
             
+            // Auto Mapper Configurations
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MapProfiles.ApplicationUserProfile());
+                mc.AddProfile(new MapProfiles.JoggingRecordProfile());
+            });
+
+            var mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
 
         }
 
@@ -131,10 +157,7 @@ namespace Jogging_Tracker
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
 }

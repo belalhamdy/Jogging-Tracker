@@ -1,15 +1,14 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Jogging_Tracker.Data;
 using Jogging_Tracker.DTOs.JoggingRecord;
 using Jogging_Tracker.Models;
 using Jogging_Tracker.Utilities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 
 namespace Jogging_Tracker.Controllers
 {
@@ -20,25 +19,17 @@ namespace Jogging_Tracker.Controllers
     [ApiController]
     public class JoggingRecordController : ControllerBase
     {
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly ApplicationDbContext _dbContext;
-        private IConfiguration Configuration { get; }
+        private readonly IMapper _mapper;
 
         /// <summary>
         /// Constructor of jogging record controller.
         /// </summary>
         /// <param name="dbContext"></param>
-        /// <param name="userManager"></param>
-        /// <param name="roleManager"></param>
-        /// <param name="configuration"></param>
-        public JoggingRecordController(ApplicationDbContext dbContext, UserManager<ApplicationUser> userManager,
-            RoleManager<IdentityRole> roleManager, IConfiguration configuration)
+        public JoggingRecordController(ApplicationDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
-            _userManager = userManager;
-            _roleManager = roleManager;
-            Configuration = configuration;
+            _mapper = mapper;
         }
 
         /// <summary>
@@ -54,14 +45,9 @@ namespace Jogging_Tracker.Controllers
         [Authorize(Roles = UserRoles.User)]
         public async Task<IActionResult> InsertJogging([FromBody] AddJoggingRecordDto record)
         {
-            
-            _dbContext.JoggingRecords.Add(new JoggingRecord()
-            {
-                UserId = GetUserIds(Request),
-                Date = record.Date,
-                DistanceInMeters = record.DistanceInMeters,
-                DurationInSeconds = record.DurationInSeconds
-            });
+            var mapped = _mapper.Map<JoggingRecord>(record);
+            mapped.UserId = GetUserIds(Request);
+            _dbContext.JoggingRecords.Add(mapped);
             return Ok(await _dbContext.SaveChangesAsync());
         }
 
