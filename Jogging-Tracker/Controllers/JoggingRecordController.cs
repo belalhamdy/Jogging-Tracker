@@ -66,7 +66,7 @@ namespace Jogging_Tracker.Controllers
             var userId = GetUserIds(Request);
             return Ok(_dbContext.JoggingRecords.Where(x => x.UserId.Equals(userId)).ToList());
         }
-        
+
         /// <summary>
         /// Get jogging records of a user.
         /// </summary>
