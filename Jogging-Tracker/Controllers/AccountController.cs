@@ -66,24 +66,64 @@ namespace Jogging_Tracker.Controllers
         [HttpPost]
         [Route("register")]
         [AllowAnonymous]
-        public async Task<IActionResult> Register([FromBody] RegisterDto model)
+        public async Task<IActionResult> RegisterUser([FromBody] RegisterDto model)
         {
-            var userExists = await _userManager.FindByNameAsync(model.Username);
-            if (userExists != null)
-                return BadRequest("User Already Exists.");
-            var user = new ApplicationUser()
+            try
             {
-                Email = model.Email,
-                SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = model.Username,
-            };
-            var result = await _userManager.CreateAsync(user, model.Password);
-            if (!result.Succeeded)
-                return BadRequest("User creation failed! Please check user details and try again.");
-            if (!await _roleManager.RoleExistsAsync(UserRoles.User))
-                await _roleManager.CreateAsync(new IdentityRole(UserRoles.User));
-            await _userManager.AddToRoleAsync(user, UserRoles.User);
+                await Register(model, UserRoles.User);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+
             return Ok("User created successfully.");
+        }
+
+        /// <summary>
+        /// Registers an admin user to the system.
+        /// </summary>
+        /// <param name="model">The data of the user</param>
+        /// <response code="200">Returned if user is registered successfully</response>
+        /// <response code="500">Returned if an internal server error</response>
+        [HttpPost]
+        [Route("register")]
+        [AllowAnonymous]
+        public async Task<IActionResult> RegisterAdmin([FromBody] RegisterDto model)
+        {
+            try
+            {
+                await Register(model, UserRoles.Admin);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+
+            return Ok("Admin created successfully.");
+        }
+
+        /// <summary>
+        /// Registers a user manager to the system.
+        /// </summary>
+        /// <param name="model">The data of the user</param>
+        /// <response code="200">Returned if user is registered successfully</response>
+        /// <response code="500">Returned if an internal server error</response>
+        [HttpPost]
+        [Route("register")]
+        [AllowAnonymous]
+        public async Task<IActionResult> RegisterUserManager([FromBody] RegisterDto model)
+        {
+            try
+            {
+                await Register(model, UserRoles.User);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+
+            return Ok("User manager created successfully.");
         }
 
         /// <summary>
@@ -120,6 +160,25 @@ namespace Jogging_Tracker.Controllers
                 expiration = token.ValidTo,
                 role = string.Join(",", userRoles)
             });
+        }
+
+        private async Task Register(RegisterDto model, string role)
+        {
+            var userExists = await _userManager.FindByNameAsync(model.Username);
+            if (userExists != null)
+                throw new Exception("User Already Exists.");
+            var user = new ApplicationUser()
+            {
+                Email = model.Email,
+                SecurityStamp = Guid.NewGuid().ToString(),
+                UserName = model.Username,
+            };
+            var result = await _userManager.CreateAsync(user, model.Password);
+            if (!result.Succeeded)
+                throw new Exception("User creation failed! Please check user details and try again.");
+            if (!await _roleManager.RoleExistsAsync(role))
+                await _roleManager.CreateAsync(new IdentityRole(role));
+            await _userManager.AddToRoleAsync(user, role);
         }
     }
 }
