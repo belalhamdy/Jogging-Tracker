@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using Jogging_Tracker.Data;
 using Jogging_Tracker.DTOs.Account;
 using Jogging_Tracker.Models;
@@ -28,6 +29,8 @@ namespace Jogging_Tracker.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly ApplicationDbContext _dbContext;
+        private readonly IMapper _mapper;
+
         private IConfiguration Configuration { get; }
 
         /// <summary>
@@ -38,11 +41,12 @@ namespace Jogging_Tracker.Controllers
         /// <param name="roleManager"></param>
         /// <param name="configuration"></param>
         public AccountController(ApplicationDbContext dbContext, UserManager<ApplicationUser> userManager,
-            RoleManager<IdentityRole> roleManager, IConfiguration configuration)
+            RoleManager<IdentityRole> roleManager, IConfiguration configuration, IMapper mapper)
         {
             _dbContext = dbContext;
             _userManager = userManager;
             _roleManager = roleManager;
+            _mapper = mapper;
             Configuration = configuration;
         }
 
@@ -161,7 +165,28 @@ namespace Jogging_Tracker.Controllers
                 role = string.Join(",", userRoles)
             });
         }
-
+        
+        /// <summary>
+        /// Gets all system users.
+        /// </summary>
+        /// <response code="200">Returned if users are returned successfully</response>
+        /// <response code="403">Returned if you are not authorized to view all users.</response>
+        /// <response code="500">Returned if an internal server error</response>
+        [HttpPost]
+        [Route("get-users")]
+        [Authorize(Roles = UserRoles.Admin)]
+        [Authorize(Roles = UserRoles.UserManager)]
+        public ActionResult<IEnumerable<GetAccountDto>> GetUsers()
+        {
+            return Ok(_dbContext.Users.Select(x => _mapper.Map<GetAccountDto>(x)));
+        }
+        
+        /// <summary>
+        /// Registers a user in the system given the information and role.
+        /// </summary>
+        /// <param name="model">User information</param>
+        /// <param name="role">User role</param>
+        /// <exception cref="Exception"></exception>
         private async Task Register(RegisterDto model, string role)
         {
             var userExists = await _userManager.FindByNameAsync(model.Username);
