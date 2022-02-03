@@ -11,7 +11,7 @@ namespace Jogging_Tracker
         {
             public ApplicationUserProfile()
             {
-                CreateMap<ApplicationUser, GetAccountDto>();
+                CreateMap<ApplicationUser, AccountDto>();
             }
         }
 
@@ -20,6 +20,7 @@ namespace Jogging_Tracker
             public JoggingRecordProfile()
             {
                 CreateMap<AddJoggingRecordDto, JoggingRecord>();
+                CreateMap<JoggingRecord, JoggingRecordDto>();
             }
         }
     }

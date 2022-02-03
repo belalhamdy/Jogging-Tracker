@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
@@ -61,10 +62,11 @@ namespace Jogging_Tracker.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
         [Authorize(Roles = UserRoles.User)]
-        public IActionResult GetMyJogging()
+        public ActionResult<IEnumerable<JoggingRecordDto>> GetMyJogging()
         {
             var userId = GetUserIds(Request);
-            return Ok(_dbContext.JoggingRecords.Where(x => x.UserId.Equals(userId)).ToList());
+            return Ok(_dbContext.JoggingRecords.Where(x => x.UserId.Equals(userId))
+                .Select(x => _mapper.Map<JoggingRecordDto>(x)));
         }
 
         /// <summary>
@@ -78,9 +80,10 @@ namespace Jogging_Tracker.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
         [Authorize(Roles = UserRoles.Admin)]
-        public IActionResult GetMyJogging(string userId)
+        public ActionResult<IEnumerable<JoggingRecordDto>> GetMyJogging(string userId)
         {
-            return Ok(_dbContext.JoggingRecords.Where(x => x.UserId.Equals(userId)).ToList());
+            return Ok(_dbContext.JoggingRecords.Where(x => x.UserId.Equals(userId))
+                .Select(x => _mapper.Map<JoggingRecordDto>(x)));
         }
 
         /// <summary>

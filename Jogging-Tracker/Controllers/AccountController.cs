@@ -176,9 +176,9 @@ namespace Jogging_Tracker.Controllers
         [Route("get-users")]
         [Authorize(Roles = UserRoles.Admin)]
         [Authorize(Roles = UserRoles.UserManager)]
-        public ActionResult<IEnumerable<GetAccountDto>> GetUsers()
+        public ActionResult<IEnumerable<AccountDto>> GetUsers()
         {
-            return Ok(_dbContext.Users.Select(x => _mapper.Map<GetAccountDto>(x)));
+            return Ok(_dbContext.Users.Select(x => _mapper.Map<AccountDto>(x)));
         }
         
         /// <summary>
