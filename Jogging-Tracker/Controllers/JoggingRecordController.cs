@@ -44,11 +44,16 @@ namespace Jogging_Tracker.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
         [Authorize(Roles = UserRoles.User)]
-        public async Task<IActionResult> InsertJogging([FromBody] AddJoggingRecordDto record)
+        public async Task<IActionResult> InsertJogging([FromBody] List<AddJoggingRecordDto> records)
         {
-            var mapped = _mapper.Map<JoggingRecord>(record);
-            mapped.UserId = GetUserIds(Request);
-            _dbContext.JoggingRecords.Add(mapped);
+            var userId = GetUserIds(Request);
+            var joggingRecords = records.Select(x =>
+            {
+                var mapped = _mapper.Map<JoggingRecord>(x);
+                mapped.UserId = userId;
+                return mapped;
+            });
+            _dbContext.JoggingRecords.AddRange(joggingRecords);
             return Ok(await _dbContext.SaveChangesAsync());
         }
 
