@@ -40,6 +40,7 @@ namespace Jogging_Tracker.Controllers
         /// <param name="userManager"></param>
         /// <param name="roleManager"></param>
         /// <param name="configuration"></param>
+        /// <param name="mapper"></param>
         public AccountController(ApplicationDbContext dbContext, UserManager<ApplicationUser> userManager,
             RoleManager<IdentityRole> roleManager, IConfiguration configuration, IMapper mapper)
         {
@@ -120,7 +121,7 @@ namespace Jogging_Tracker.Controllers
         {
             try
             {
-                await Register(model, UserRoles.User);
+                await Register(model, UserRoles.UserManager);
             }
             catch (Exception e)
             {
@@ -174,8 +175,7 @@ namespace Jogging_Tracker.Controllers
         /// <response code="500">Returned if an internal server error</response>
         [HttpPost]
         [Route("get-users")]
-        [Authorize(Roles = UserRoles.Admin)]
-        [Authorize(Roles = UserRoles.UserManager)]
+        [Authorize(Roles = UserRoles.Admin + "," + UserRoles.UserManager)]
         public ActionResult<IEnumerable<AccountDto>> GetUsers()
         {
             return Ok(_dbContext.Users.Select(x => _mapper.Map<AccountDto>(x)));
