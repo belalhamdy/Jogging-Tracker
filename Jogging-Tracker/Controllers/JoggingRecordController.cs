@@ -43,9 +43,9 @@ namespace Jogging_Tracker.Controllers
         [AllowAnonymous]
         public IActionResult Home()
         {
-            return Ok(GetReport("24391000-0a63-4bb1-971f-7611dd87d9f6",new GetJoggingRecordsDateFilter()
+            return Ok(GetReport("24391000-0a63-4bb1-971f-7611dd87d9f6", new GetJoggingRecordsDateFilter()
             {
-                From = new DateTime(2022,1,20)
+                From = new DateTime(2022, 1, 20)
             }));
         }
 
@@ -90,6 +90,22 @@ namespace Jogging_Tracker.Controllers
         }
 
         /// <summary>
+        /// Get jogging records report of the logged in user.
+        /// </summary>
+        /// <response code="200">Returned if the computer inserted successfully</response>
+        /// <response code="500">Returned if an internal server error</response>
+        [HttpGet]
+        [Route("get-my-report")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
+        [Authorize(Roles = UserRoles.User)]
+        public ActionResult<IEnumerable<JoggingRecordDto>> GetMyReport([FromQuery] GetJoggingRecordsDateFilter filter)
+        {
+            var userId = GetUserIds(Request);
+            return Ok(GetReport(userId, filter));
+        }
+
+        /// <summary>
         /// Get jogging records of a user and filter them.
         /// </summary>
         /// <param name="userId">The record to be added</param>
@@ -105,6 +121,22 @@ namespace Jogging_Tracker.Controllers
             [FromQuery] GetJoggingRecordsDateFilter filter)
         {
             return Ok(GetJogging(userId, filter));
+        }
+
+        /// <summary>
+        /// Get jogging records report of a user and filter on date.
+        /// </summary>
+        /// <response code="200">Returned if the computer inserted successfully</response>
+        /// <response code="500">Returned if an internal server error</response>
+        [HttpGet]
+        [Route("get-user-report")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
+        [Authorize(Roles = UserRoles.User)]
+        public ActionResult<IEnumerable<JoggingRecordDto>> GetUserReport(string userId,
+            [FromQuery] GetJoggingRecordsDateFilter filter)
+        {
+            return Ok(GetReport(userId, filter));
         }
 
         /// <summary>
