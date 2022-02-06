@@ -62,13 +62,12 @@ namespace Jogging_Tracker.Data
             return usernames.Select(t => new ApplicationUser()
             {
                 Id = Guid.NewGuid().ToString(), UserName = t, NormalizedUserName = t.ToUpper(),
-                PasswordHash = hasher.HashPassword(null, "string")
+                PasswordHash = hasher.HashPassword(null, "string"),Email = t + "@test.com"
             }).ToList();
         }
 
         private List<JoggingRecord> GetJoggingRecords()
         {
-            //TODO
             return new List<JoggingRecord>()
             {
                 new JoggingRecord()

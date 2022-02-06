@@ -50,7 +50,7 @@ namespace Jogging_Tracker
             services.AddControllers();
 
             /*services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("Heroku")));*/
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));*/
             services.AddEntityFrameworkNpgsql().AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("Heroku")));
 

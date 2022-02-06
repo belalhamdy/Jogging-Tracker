@@ -11,7 +11,9 @@ namespace Jogging_Tracker
         {
             public ApplicationUserProfile()
             {
-                CreateMap<ApplicationUser, AccountDto>();
+                CreateMap<ApplicationUser, AccountDto>()
+                    .ForMember(x => x.UserId, opt => opt.MapFrom(y => y.Id));
+                ;
             }
         }
 

@@ -36,20 +36,6 @@ namespace Jogging_Tracker.Controllers
         }
 
         /// <summary>
-        /// To test the API if it works.
-        /// </summary>
-        [HttpGet]
-        [Route("home")]
-        [AllowAnonymous]
-        public IActionResult Home()
-        {
-            return Ok(GetReport("24391000-0a63-4bb1-971f-7611dd87d9f6", new GetJoggingRecordsDateFilter()
-            {
-                From = new DateTime(2022, 1, 20)
-            }));
-        }
-
-        /// <summary>
         /// Adds a jogging record to the system
         /// </summary>
         /// <param name="record">The record to be added</param>
@@ -132,7 +118,7 @@ namespace Jogging_Tracker.Controllers
         [Route("get-user-report")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
-        [Authorize(Roles = UserRoles.User)]
+        [Authorize(Roles = UserRoles.Admin)]
         public ActionResult<IEnumerable<JoggingRecordDto>> GetUserReport(string userId,
             [FromQuery] GetJoggingRecordsDateFilter filter)
         {
@@ -177,7 +163,7 @@ namespace Jogging_Tracker.Controllers
                     Duration = x.Average(y => y.DurationInSeconds)
                 }).Select(x => new JoggingRecordReport()
                 {
-                    WeekNumber = x.Week, AverageDistance = x.Distance, AverageSpeed = x.Distance / x.Duration
+                    WeekNumber = x.Week, AverageDistanceInMeters = x.Distance, AverageSpeedInMetersPerMinute = x.Distance / (x.Duration / 60.0)
                 }).ToList();
         }
     }

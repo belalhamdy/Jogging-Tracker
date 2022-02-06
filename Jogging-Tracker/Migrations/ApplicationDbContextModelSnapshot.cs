@@ -85,71 +85,76 @@ namespace Jogging_Tracker.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "6e5e2546-7472-4f68-9ee0-72ea5fc447ae",
+                            Id = "4fc7912a-7ee7-4fe4-8601-31bbb66471b0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b7667e9c-849e-47fd-a3ba-055f56492516",
+                            ConcurrencyStamp = "9a7f4d79-2523-4321-bc77-2539ef946c12",
+                            Email = "manager@test.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "MANAGER",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPdJU63qcCuwfD7FBFGdoZJGvqyDKOgjQJWzpVEoW2uwGz0EuM+f4LkVo+ugbyjWqA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFh3+xjY1BIeB2sD1cc1HFaoA7syF4kFHhb9H3yxUjegybP7ajhkZPOL5WyIL9btqQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "0bf1a793-e29c-41b2-8022-27056a1cac46",
+                            SecurityStamp = "2a3731b1-c365-47f8-8a2f-b953f861b5aa",
                             TwoFactorEnabled = false,
                             UserName = "manager"
                         },
                         new
                         {
-                            Id = "8de2108f-9c3a-4d05-a411-bb9a2ce9cf02",
+                            Id = "19242af9-3fce-449e-a1ea-5c5b8265cd1e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ff5a46b6-7a79-41f7-9db6-6a678e5be1ad",
+                            ConcurrencyStamp = "ac754616-e735-475f-ac87-321a02618e58",
+                            Email = "admin@test.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHUGrKFl+/6kPChu/GIVqXZ/1AYduMmvKjHwaxmBl9WIc/r3/3dkcgwAqnTfl/AkGQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPcSRhPx/rDBXL5PTkF/H2RfsDaoL6Iqb6SYtHMSW6wCfJHQ2I4SZnsFA3MOpWy5Ag==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b0495a31-dd9e-440c-bdb4-4177515299af",
+                            SecurityStamp = "94b77c05-5cb9-452b-b08a-4fdf818b97b9",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         },
                         new
                         {
-                            Id = "16abd476-7203-4def-8d29-027bfca18427",
+                            Id = "2db2e132-2711-4da3-80d4-e85bc1586b26",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c0f67f20-280a-4ad6-b559-ee2d4d4e9dd5",
+                            ConcurrencyStamp = "02624ba7-9342-46f4-a928-07451480f140",
+                            Email = "user1@test.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "USER1",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBt9c89AUqbmMo5pomDscFVbH97/8KbB+Ec5oh9DYGZEZCHNdqTV4wrJvKdB/DdpYA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFhaKZErcl2u0IJTt3g4zR/KhWaRBpmYDQKykFmTeLfyt8rg/k/Bot0CIjvzrwNa7w==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "17cf0993-a7d2-44fb-b52d-1547c1773a12",
+                            SecurityStamp = "7e91d76d-6676-4ab8-94bb-a15cff34c735",
                             TwoFactorEnabled = false,
                             UserName = "user1"
                         },
                         new
                         {
-                            Id = "364bded4-0829-495b-bb84-b1b32c81d0e3",
+                            Id = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "17f21874-c919-46fa-beb5-b7d158564f15",
+                            ConcurrencyStamp = "83d978f3-4ab1-4b6d-a5c2-220f3e894279",
+                            Email = "user2@test.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "USER2",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAbIMXhDXUoVv/Q7s6tNeHq1wLnlEH1bAu0YhEIcn2pfD+cUX9JgaQdt7QxEk+zR5g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEmCJyw+pDdmJwX3jpZgvI+e36mGMkC9iNZmsmUzK5FK81pGzfKGW811IURF4f2NOw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "fecbafde-489a-4bab-bbad-63f41331df47",
+                            SecurityStamp = "10265749-78ef-4d54-af58-a3739c76e122",
                             TwoFactorEnabled = false,
                             UserName = "user2"
                         },
                         new
                         {
-                            Id = "20843ab6-8627-42b4-b1c7-0ecd49bcd262",
+                            Id = "19815a91-4177-44d9-b76c-97e70fe4b740",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "81b1099d-edec-4371-8c0f-c62bbc53c19c",
+                            ConcurrencyStamp = "ae3026bc-41f6-499f-a94f-d04535e6b0bc",
+                            Email = "user3@test.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "USER3",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOkNRnVoSBj+EdaJ+joq4KL8457NbgAmp0Ge84lRlJ/y+0VqzxdWpxhfVsIbEOOIOw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOC/Z+ILR6Z+45+53CiL5bBS9GUIl+yuVliPAoIZB3PgUtzAI0T5sa4xm2A/zr/kfw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9119d9bd-1cd7-4103-afaa-146e43599cf6",
+                            SecurityStamp = "535acf26-6a62-4ef2-b954-04363512a196",
                             TwoFactorEnabled = false,
                             UserName = "user3"
                         });
@@ -187,7 +192,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5901.753404672143,
                             DurationInSeconds = 18698.669479682481,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -195,7 +200,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 714.98233985106219,
                             DurationInSeconds = 1719.1816452745343,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -203,7 +208,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7043.3566559613355,
                             DurationInSeconds = 13786.739927708666,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -211,7 +216,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3096.0341353785766,
                             DurationInSeconds = 11327.470865626567,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -219,7 +224,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2965.9038805358559,
                             DurationInSeconds = 4996.6506389815504,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -227,7 +232,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9373.39652056253,
                             DurationInSeconds = 7471.6298418848346,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -235,7 +240,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4571.0891068731926,
                             DurationInSeconds = 4245.5821411646839,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -243,7 +248,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9350.2259948164156,
                             DurationInSeconds = 17163.597389789793,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -251,7 +256,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9472.2475384876398,
                             DurationInSeconds = 17505.613899277254,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -259,7 +264,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3787.1349180861898,
                             DurationInSeconds = 12987.029012566025,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -267,7 +272,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5835.496781835267,
                             DurationInSeconds = 8892.7817695832982,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -275,7 +280,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3970.6774319494557,
                             DurationInSeconds = 10423.944547793251,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -283,7 +288,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9096.8874445411384,
                             DurationInSeconds = 10866.761110537913,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -291,7 +296,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9889.12975920805,
                             DurationInSeconds = 2453.9813247222442,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -299,7 +304,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7809.9926019845252,
                             DurationInSeconds = 14437.514669933873,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -307,7 +312,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 470.49206855833717,
                             DurationInSeconds = 11920.445292111515,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -315,7 +320,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9641.8553479008951,
                             DurationInSeconds = 2117.7889590584009,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -323,7 +328,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7194.9652233264633,
                             DurationInSeconds = 4457.7408906805204,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -331,7 +336,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3095.7833806489934,
                             DurationInSeconds = 18457.064297248871,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -339,7 +344,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9330.2467719319775,
                             DurationInSeconds = 3424.9333316099974,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -347,7 +352,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9275.6724518225728,
                             DurationInSeconds = 14018.510131986854,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -355,7 +360,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3353.2287632184575,
                             DurationInSeconds = 2530.3081014047602,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -363,7 +368,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6551.5416843081794,
                             DurationInSeconds = 3692.6196693834963,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -371,7 +376,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 1, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6442.4063061794377,
                             DurationInSeconds = 13301.34182986441,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -379,7 +384,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4703.1436902996766,
                             DurationInSeconds = 12210.94258031044,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -387,7 +392,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3658.1608484593471,
                             DurationInSeconds = 3328.9196944973796,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -395,7 +400,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9977.0233818740471,
                             DurationInSeconds = 19176.950462352655,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -403,7 +408,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8717.4390860912008,
                             DurationInSeconds = 12618.411892902368,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -411,7 +416,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5475.7300440229274,
                             DurationInSeconds = 2144.9412562370171,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -419,7 +424,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6663.9667842515892,
                             DurationInSeconds = 1107.6638397282593,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -427,7 +432,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3123.0970748557033,
                             DurationInSeconds = 14060.133882145585,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -435,7 +440,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 400.50938941652532,
                             DurationInSeconds = 10172.076180184618,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -443,7 +448,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3091.6461288974419,
                             DurationInSeconds = 12607.520064879613,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -451,7 +456,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7747.9430033823992,
                             DurationInSeconds = 16703.778176195301,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -459,7 +464,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8590.9840582645247,
                             DurationInSeconds = 9343.2078416613349,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -467,7 +472,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7683.0763154047472,
                             DurationInSeconds = 1372.817695523986,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -475,7 +480,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7959.7573041549776,
                             DurationInSeconds = 19024.331186162544,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -483,7 +488,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8627.8813442217361,
                             DurationInSeconds = 5206.6340849929638,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -491,7 +496,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9189.6773466827708,
                             DurationInSeconds = 19222.691198697346,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -499,7 +504,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9093.4961079924597,
                             DurationInSeconds = 6121.1773758582422,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -507,7 +512,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4558.1206629848175,
                             DurationInSeconds = 9889.7489204718204,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -515,7 +520,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2221.0329584239616,
                             DurationInSeconds = 4976.6518987799445,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -523,7 +528,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4438.0465380008654,
                             DurationInSeconds = 13657.420966345295,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -531,7 +536,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9103.8672950225791,
                             DurationInSeconds = 14386.643545201263,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -539,7 +544,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8123.1169578144245,
                             DurationInSeconds = 11871.334266849912,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -547,7 +552,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3559.4887043128419,
                             DurationInSeconds = 10111.185895936178,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -555,7 +560,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8402.2749055329532,
                             DurationInSeconds = 2286.2892778282794,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -563,7 +568,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 731.90170147748211,
                             DurationInSeconds = 13211.24389845853,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -571,7 +576,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 2, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3777.6472711652295,
                             DurationInSeconds = 19680.976008499725,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -579,7 +584,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5213.2992799547792,
                             DurationInSeconds = 12168.605967758067,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -587,7 +592,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5872.2363713527866,
                             DurationInSeconds = 3485.7470337967779,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -595,7 +600,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6204.4375320888093,
                             DurationInSeconds = 4335.8466965163934,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -603,7 +608,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4934.6057896083184,
                             DurationInSeconds = 14399.524761545035,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -611,7 +616,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1051.6242608241641,
                             DurationInSeconds = 3202.4450447188528,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -619,7 +624,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9167.807631865513,
                             DurationInSeconds = 10620.121862166296,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -627,7 +632,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5447.1177686836827,
                             DurationInSeconds = 19994.51754841995,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -635,7 +640,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8163.2066951850884,
                             DurationInSeconds = 13864.20724009854,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -643,7 +648,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6382.8722770644281,
                             DurationInSeconds = 18298.018985231694,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -651,7 +656,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3962.565286521412,
                             DurationInSeconds = 19700.037944135045,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -659,7 +664,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5635.9277372879242,
                             DurationInSeconds = 12459.501255977,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -667,7 +672,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3300.1788619733898,
                             DurationInSeconds = 4844.4310464465971,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -675,7 +680,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7240.4184308461627,
                             DurationInSeconds = 8178.8183965758753,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -683,7 +688,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6800.931856169921,
                             DurationInSeconds = 5337.7745487493057,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -691,7 +696,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9879.658354766003,
                             DurationInSeconds = 12077.354083611599,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -699,7 +704,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8700.1025871040074,
                             DurationInSeconds = 17464.894274446815,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -707,7 +712,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4130.1344990673197,
                             DurationInSeconds = 6916.5117974713257,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -715,7 +720,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2390.8707931349009,
                             DurationInSeconds = 9417.4616142329432,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -723,7 +728,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4122.3397518546844,
                             DurationInSeconds = 18829.645695614334,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -731,7 +736,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7618.5066210117575,
                             DurationInSeconds = 15159.359752570484,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -739,7 +744,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3563.0292989851405,
                             DurationInSeconds = 4475.8734610727588,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -747,7 +752,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8545.519569220527,
                             DurationInSeconds = 13498.101618060171,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -755,7 +760,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7938.9014887755829,
                             DurationInSeconds = 19067.179951198101,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -763,7 +768,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2725.9020104021988,
                             DurationInSeconds = 296.92914097275548,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -771,7 +776,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 3, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6401.8787339700884,
                             DurationInSeconds = 8163.3752032716602,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -779,7 +784,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4704.2023521906576,
                             DurationInSeconds = 11304.760343701346,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -787,7 +792,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7506.4095948621252,
                             DurationInSeconds = 4395.0583724161261,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -795,7 +800,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5594.2855040498125,
                             DurationInSeconds = 14652.262950929378,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -803,7 +808,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3102.4247362686847,
                             DurationInSeconds = 12363.661121134106,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -811,7 +816,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1953.755715997328,
                             DurationInSeconds = 2596.4397771589402,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -819,7 +824,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4951.0259455362993,
                             DurationInSeconds = 5377.57601072542,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -827,7 +832,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5120.7990330435778,
                             DurationInSeconds = 493.74352830987254,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -835,7 +840,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8042.0117388400404,
                             DurationInSeconds = 18947.337227354121,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -843,7 +848,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8302.7129414736701,
                             DurationInSeconds = 4676.7447456302643,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -851,7 +856,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6042.9726121963395,
                             DurationInSeconds = 9957.6875699722914,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -859,7 +864,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5825.9612664834913,
                             DurationInSeconds = 1923.0160460457357,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -867,7 +872,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 876.13331401482992,
                             DurationInSeconds = 7969.0742766094008,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -875,7 +880,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9841.5291130385503,
                             DurationInSeconds = 261.6948258680714,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -883,7 +888,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6415.703630998255,
                             DurationInSeconds = 718.18284323074101,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -891,7 +896,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2920.9664128232398,
                             DurationInSeconds = 17999.736964536678,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -899,7 +904,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5280.1143451312446,
                             DurationInSeconds = 1247.3458629688732,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -907,7 +912,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2316.8287962681361,
                             DurationInSeconds = 9000.3049751724884,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -915,7 +920,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2284.7749607490955,
                             DurationInSeconds = 13575.157338474584,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -923,7 +928,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 700.40479347387839,
                             DurationInSeconds = 19484.859632273299,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -931,7 +936,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9164.2815476013602,
                             DurationInSeconds = 17772.010875920525,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -939,7 +944,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3481.1237475129128,
                             DurationInSeconds = 3678.1733633826248,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -947,7 +952,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4094.2129615926347,
                             DurationInSeconds = 13793.339390423447,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -955,7 +960,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5004.391972297065,
                             DurationInSeconds = 3565.39670612801,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -963,7 +968,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9874.1472000114991,
                             DurationInSeconds = 5139.1378517659505,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -971,7 +976,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 4, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1865.7782821712467,
                             DurationInSeconds = 15890.873427783952,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -979,7 +984,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 557.76597967764769,
                             DurationInSeconds = 11044.538474109075,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -987,7 +992,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3696.5489572776696,
                             DurationInSeconds = 2505.2464136101294,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -995,7 +1000,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 390.32947671395311,
                             DurationInSeconds = 13241.562439442352,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1003,7 +1008,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5039.2739447571303,
                             DurationInSeconds = 19436.321561756773,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1011,7 +1016,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6917.8750293067706,
                             DurationInSeconds = 601.99012719872599,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1019,7 +1024,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9786.2282332830655,
                             DurationInSeconds = 5826.0181154677693,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1027,7 +1032,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 289.33461422814128,
                             DurationInSeconds = 16875.965168054874,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1035,7 +1040,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9342.9907721667023,
                             DurationInSeconds = 14303.117788539123,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1043,7 +1048,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 669.38171007272263,
                             DurationInSeconds = 1214.229134181948,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1051,7 +1056,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2133.2800695633737,
                             DurationInSeconds = 19620.157003552726,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1059,7 +1064,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7626.0650301856522,
                             DurationInSeconds = 8802.30936349279,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1067,7 +1072,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4100.6298357721917,
                             DurationInSeconds = 11482.303576294278,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1075,7 +1080,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3186.4397344222721,
                             DurationInSeconds = 18729.953442616745,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1083,7 +1088,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2836.7575623114139,
                             DurationInSeconds = 17267.190841897213,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1091,7 +1096,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4163.1682115751291,
                             DurationInSeconds = 2873.8225720016621,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1099,7 +1104,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4150.1640610780769,
                             DurationInSeconds = 15089.821307220674,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1107,7 +1112,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4591.3797599707059,
                             DurationInSeconds = 1410.1170158113673,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1115,7 +1120,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5717.6127307273282,
                             DurationInSeconds = 19638.981747678146,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1123,7 +1128,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 736.3680631672338,
                             DurationInSeconds = 9640.3578477218689,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1131,7 +1136,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1508.2592492851456,
                             DurationInSeconds = 11429.649960290533,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1139,7 +1144,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6966.9045407909152,
                             DurationInSeconds = 1309.6442627518318,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1147,7 +1152,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6605.5024309017572,
                             DurationInSeconds = 14929.734507399937,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1155,7 +1160,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8719.5434920470907,
                             DurationInSeconds = 7674.8170128302263,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1163,7 +1168,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2863.4468535544147,
                             DurationInSeconds = 1153.1113034643834,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1171,7 +1176,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 5, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8485.9584681366141,
                             DurationInSeconds = 4255.2284306940373,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1179,7 +1184,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9788.0997293707132,
                             DurationInSeconds = 9059.3659568439434,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1187,7 +1192,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5493.6730751806317,
                             DurationInSeconds = 12192.462286506227,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1195,7 +1200,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3143.4476011368774,
                             DurationInSeconds = 8863.2976048376859,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1203,7 +1208,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9117.4481213809649,
                             DurationInSeconds = 8919.8847859176567,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1211,7 +1216,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8360.0999934068077,
                             DurationInSeconds = 3511.5288306059674,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1219,7 +1224,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 796.4275412424704,
                             DurationInSeconds = 7912.3001432996325,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1227,7 +1232,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5118.0105828424257,
                             DurationInSeconds = 2328.8306524949994,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1235,7 +1240,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4669.8359865314242,
                             DurationInSeconds = 1196.9036722998524,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1243,7 +1248,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5092.8022316854704,
                             DurationInSeconds = 2390.009035836063,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1251,7 +1256,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1375.7845353128641,
                             DurationInSeconds = 13686.147593027175,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1259,7 +1264,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4740.4832236636666,
                             DurationInSeconds = 5442.8308438761296,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1267,7 +1272,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9350.3719865098483,
                             DurationInSeconds = 16997.455571331011,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1275,7 +1280,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1405.9282657679942,
                             DurationInSeconds = 17839.886833055083,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1283,7 +1288,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9757.8838805434516,
                             DurationInSeconds = 16463.544904685274,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1291,7 +1296,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9804.2072068187736,
                             DurationInSeconds = 12804.96091250998,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1299,7 +1304,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7828.8303610777311,
                             DurationInSeconds = 10110.857587631657,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1307,7 +1312,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2763.6691726605732,
                             DurationInSeconds = 10408.988069121649,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1315,7 +1320,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5652.8053569165777,
                             DurationInSeconds = 8469.9718093313513,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1323,7 +1328,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2608.0592397261116,
                             DurationInSeconds = 7519.3516591721218,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1331,7 +1336,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 256.7409104931632,
                             DurationInSeconds = 148.8255949620239,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1339,7 +1344,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 585.5508560365256,
                             DurationInSeconds = 1254.2129802049551,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1347,7 +1352,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5204.0040341012636,
                             DurationInSeconds = 19704.669921176948,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1355,7 +1360,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5058.3025513140728,
                             DurationInSeconds = 16206.351621693228,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1363,7 +1368,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4885.3271179407084,
                             DurationInSeconds = 15590.021496508927,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1371,7 +1376,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 6, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1648.1441962285483,
                             DurationInSeconds = 10778.992755451258,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1379,7 +1384,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4077.5759313432977,
                             DurationInSeconds = 1599.4181673358869,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1387,7 +1392,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1610.5363960525469,
                             DurationInSeconds = 4113.928020405845,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1395,7 +1400,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1029.8780150523507,
                             DurationInSeconds = 10414.220379880162,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1403,7 +1408,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3696.086863493475,
                             DurationInSeconds = 3378.8231520695913,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1411,7 +1416,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 558.94192065426614,
                             DurationInSeconds = 2661.8513212314647,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1419,7 +1424,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3292.6280260860794,
                             DurationInSeconds = 18093.433563567727,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1427,7 +1432,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1626.4929623202397,
                             DurationInSeconds = 5854.4878354682014,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1435,7 +1440,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3749.856257233761,
                             DurationInSeconds = 15782.300430706851,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1443,7 +1448,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2323.1639079706133,
                             DurationInSeconds = 19336.732804206698,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1451,7 +1456,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3636.1571144727636,
                             DurationInSeconds = 3967.0987438089064,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1459,7 +1464,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6821.0103177383826,
                             DurationInSeconds = 18780.725934138944,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1467,7 +1472,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3560.6113156662427,
                             DurationInSeconds = 16141.459797489064,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1475,7 +1480,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 525.83532302950925,
                             DurationInSeconds = 6103.8707962347062,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1483,7 +1488,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4048.3028124724183,
                             DurationInSeconds = 10663.426601251838,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1491,7 +1496,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1383.3500167608697,
                             DurationInSeconds = 16059.367878928544,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1499,7 +1504,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1225.3448482154624,
                             DurationInSeconds = 12636.019558963348,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1507,7 +1512,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7173.7945819222032,
                             DurationInSeconds = 19888.890214911946,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1515,7 +1520,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4121.7413343892222,
                             DurationInSeconds = 13611.498502440149,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1523,7 +1528,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4251.4464808131052,
                             DurationInSeconds = 11350.633646345292,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1531,7 +1536,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3942.2478875563947,
                             DurationInSeconds = 18146.984133851194,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1539,7 +1544,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8495.5504439608358,
                             DurationInSeconds = 11320.555911947444,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1547,7 +1552,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2462.1311532274453,
                             DurationInSeconds = 1064.218146271081,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1555,7 +1560,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 985.97869350436622,
                             DurationInSeconds = 15224.88286277573,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1563,7 +1568,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8353.2686830241346,
                             DurationInSeconds = 16943.183961066796,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1571,7 +1576,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 7, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4059.4305276593172,
                             DurationInSeconds = 17227.0737813261,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1579,7 +1584,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4043.3127312808115,
                             DurationInSeconds = 14339.583837685957,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1587,7 +1592,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4224.5964133018078,
                             DurationInSeconds = 14892.306968617677,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1595,7 +1600,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5474.3348371073371,
                             DurationInSeconds = 12507.854223287546,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1603,7 +1608,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6465.7026028675364,
                             DurationInSeconds = 902.01328743703277,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1611,7 +1616,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7658.2280957304401,
                             DurationInSeconds = 5584.9791387695986,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1619,7 +1624,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1948.4358603784062,
                             DurationInSeconds = 426.7449168939936,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1627,7 +1632,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 963.78780712185994,
                             DurationInSeconds = 919.18544035004732,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1635,7 +1640,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2446.3699537784833,
                             DurationInSeconds = 4520.839552353742,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1643,7 +1648,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 464.75688542555383,
                             DurationInSeconds = 7752.7810380658102,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1651,7 +1656,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8809.2576861486341,
                             DurationInSeconds = 19869.596269743841,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1659,7 +1664,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7263.4071303700357,
                             DurationInSeconds = 7233.5508247120024,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1667,7 +1672,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4277.6405685165555,
                             DurationInSeconds = 17420.025816575624,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1675,7 +1680,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5960.8884724852933,
                             DurationInSeconds = 17365.440252964749,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1683,7 +1688,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9127.4551869811148,
                             DurationInSeconds = 529.31895678659828,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1691,7 +1696,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1999.9360941514788,
                             DurationInSeconds = 11243.818642253671,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1699,7 +1704,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 507.37998787056392,
                             DurationInSeconds = 10913.136960880773,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1707,7 +1712,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8822.2615257737107,
                             DurationInSeconds = 17968.944250137734,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1715,7 +1720,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4991.6334429537192,
                             DurationInSeconds = 10561.554967854161,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1723,7 +1728,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 535.0025407714146,
                             DurationInSeconds = 15508.732041107858,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1731,7 +1736,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6826.6208337932476,
                             DurationInSeconds = 7457.8251699238299,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1739,7 +1744,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7660.5935150356363,
                             DurationInSeconds = 11324.253285981455,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1747,7 +1752,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2773.2198635252885,
                             DurationInSeconds = 11630.531420616138,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1755,7 +1760,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9755.0626924503613,
                             DurationInSeconds = 7209.357261268563,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1763,7 +1768,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1894.111408795734,
                             DurationInSeconds = 12758.859208008158,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1771,7 +1776,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 8, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8678.0665745699844,
                             DurationInSeconds = 9961.3522785553723,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1779,7 +1784,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8775.3559966921384,
                             DurationInSeconds = 10562.548730816281,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1787,7 +1792,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9127.1033897850139,
                             DurationInSeconds = 12784.335542067736,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1795,7 +1800,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4421.1117290438051,
                             DurationInSeconds = 3655.5125525587509,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1803,7 +1808,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3411.3878571260311,
                             DurationInSeconds = 3807.0958228618606,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1811,7 +1816,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5537.5794283438836,
                             DurationInSeconds = 10178.215823096147,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1819,7 +1824,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3394.4770942960613,
                             DurationInSeconds = 7291.3553887588669,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1827,7 +1832,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2225.7777872634424,
                             DurationInSeconds = 9291.7238378393395,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1835,7 +1840,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1488.664854083657,
                             DurationInSeconds = 19821.124691038189,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1843,7 +1848,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4038.7934617614565,
                             DurationInSeconds = 16642.837373177819,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1851,7 +1856,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9020.5401936099697,
                             DurationInSeconds = 15130.973149158526,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1859,7 +1864,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1897.0650485749034,
                             DurationInSeconds = 4623.6405419687135,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1867,7 +1872,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6218.0236779404986,
                             DurationInSeconds = 13439.202959538063,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1875,7 +1880,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4346.3829605288638,
                             DurationInSeconds = 5670.9992334234385,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1883,7 +1888,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7973.22801775275,
                             DurationInSeconds = 8797.2869827851737,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1891,7 +1896,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3157.9622860368686,
                             DurationInSeconds = 5155.9782030419137,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1899,7 +1904,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 633.84349018765909,
                             DurationInSeconds = 17992.214588540337,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1907,7 +1912,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5500.5574487243857,
                             DurationInSeconds = 5492.0462357163151,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1915,7 +1920,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6257.772863244636,
                             DurationInSeconds = 2397.7386960582912,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1923,7 +1928,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5801.180877136494,
                             DurationInSeconds = 3160.8323016350732,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1931,7 +1936,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3694.4752474488846,
                             DurationInSeconds = 4846.3029561574695,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1939,7 +1944,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6021.7396288751434,
                             DurationInSeconds = 17052.210769699159,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1947,7 +1952,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7233.4560709984344,
                             DurationInSeconds = 6515.0874459395618,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1955,7 +1960,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6450.2979252801888,
                             DurationInSeconds = 9080.2264906714936,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1963,7 +1968,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4207.5297503389411,
                             DurationInSeconds = 1627.9634821400784,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1971,7 +1976,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 9, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5615.2888901121869,
                             DurationInSeconds = 19654.951297180603,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -1979,7 +1984,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1213.6148163489001,
                             DurationInSeconds = 18731.283997711471,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -1987,7 +1992,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7681.5196425518297,
                             DurationInSeconds = 13900.314522557177,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -1995,7 +2000,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5349.7339573701229,
                             DurationInSeconds = 7413.2191354440247,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2003,7 +2008,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5751.2436702565101,
                             DurationInSeconds = 7739.1549084455173,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2011,7 +2016,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4140.3024035959716,
                             DurationInSeconds = 15737.243957329323,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2019,7 +2024,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4373.7082970508172,
                             DurationInSeconds = 5662.7355279903277,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2027,7 +2032,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4926.1175944550541,
                             DurationInSeconds = 11602.945829432698,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2035,7 +2040,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9449.5003494251596,
                             DurationInSeconds = 16605.81925221745,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2043,7 +2048,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9271.1826474366462,
                             DurationInSeconds = 4333.2672101682419,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2051,7 +2056,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8154.1276538894344,
                             DurationInSeconds = 1754.4347686362855,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2059,7 +2064,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5926.8687775199705,
                             DurationInSeconds = 15944.476025216785,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2067,7 +2072,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3148.946425790532,
                             DurationInSeconds = 2301.5551767513116,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2075,7 +2080,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1381.0377645965104,
                             DurationInSeconds = 3726.8709222292946,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2083,7 +2088,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7013.646745388427,
                             DurationInSeconds = 18663.484338692815,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2091,7 +2096,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7897.9960320778082,
                             DurationInSeconds = 5605.0623977937803,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2099,7 +2104,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3376.1000078679594,
                             DurationInSeconds = 9048.6561389001126,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2107,7 +2112,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 508.71199105077585,
                             DurationInSeconds = 7354.8451562127821,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2115,7 +2120,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6416.9167855546566,
                             DurationInSeconds = 10683.743677930599,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2123,7 +2128,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5769.6161762517304,
                             DurationInSeconds = 13295.291822869201,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2131,7 +2136,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1810.8267253178403,
                             DurationInSeconds = 9529.7368448440811,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2139,7 +2144,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4468.5131058238339,
                             DurationInSeconds = 18882.251873324331,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2147,7 +2152,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 961.70717605693278,
                             DurationInSeconds = 1780.3534860102825,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2155,7 +2160,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6503.4787381938158,
                             DurationInSeconds = 1207.6938215826717,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2163,7 +2168,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5121.3937900864794,
                             DurationInSeconds = 3395.4536467752223,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2171,7 +2176,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 10, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4655.1431183212253,
                             DurationInSeconds = 13714.319306252692,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2179,7 +2184,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4918.1586268782303,
                             DurationInSeconds = 5165.5733724394095,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2187,7 +2192,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 671.93193783478046,
                             DurationInSeconds = 11915.474580267864,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2195,7 +2200,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9649.4476530537104,
                             DurationInSeconds = 4293.4477555765789,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2203,7 +2208,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6239.8826081632333,
                             DurationInSeconds = 18374.057823460815,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2211,7 +2216,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9887.9268510720194,
                             DurationInSeconds = 2342.5161118979167,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2219,7 +2224,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6381.4184873867007,
                             DurationInSeconds = 13494.102441407224,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2227,7 +2232,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3184.4142572568785,
                             DurationInSeconds = 15472.934811166777,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2235,7 +2240,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1935.6387511266564,
                             DurationInSeconds = 15084.847141587907,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2243,7 +2248,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 408.31273555857251,
                             DurationInSeconds = 1815.4856532495699,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2251,7 +2256,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2909.1435738201285,
                             DurationInSeconds = 11944.705184236365,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2259,7 +2264,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8466.8885437853041,
                             DurationInSeconds = 10968.328289464316,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2267,7 +2272,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3351.5085143183614,
                             DurationInSeconds = 497.85293657725055,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2275,7 +2280,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5663.9678083634462,
                             DurationInSeconds = 16548.670571846516,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2283,7 +2288,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8032.9293569959127,
                             DurationInSeconds = 9649.7501679279158,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2291,7 +2296,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6789.4194034954508,
                             DurationInSeconds = 11393.372809883293,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2299,7 +2304,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 500.7639469008484,
                             DurationInSeconds = 11759.871979849679,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2307,7 +2312,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 793.76876378482905,
                             DurationInSeconds = 6033.7365745916495,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2315,7 +2320,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2199.1342721549795,
                             DurationInSeconds = 9064.3423758207773,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2323,7 +2328,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3125.0677514734075,
                             DurationInSeconds = 12568.12239934151,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2331,7 +2336,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2660.8658680455237,
                             DurationInSeconds = 17388.014816956595,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2339,7 +2344,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9077.7165646846279,
                             DurationInSeconds = 19315.308659199418,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2347,7 +2352,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2275.3289394175599,
                             DurationInSeconds = 12215.797947876286,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2355,7 +2360,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 588.2663922467566,
                             DurationInSeconds = 14313.452212803635,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2363,7 +2368,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5145.1784770440208,
                             DurationInSeconds = 8653.2911796959015,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2371,7 +2376,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 11, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2506.1792662595676,
                             DurationInSeconds = 1996.618771707309,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2379,7 +2384,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2786.573094661996,
                             DurationInSeconds = 5996.6756874610555,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2387,7 +2392,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8138.4803074386327,
                             DurationInSeconds = 12598.127395983547,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2395,7 +2400,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1396.4720561014924,
                             DurationInSeconds = 7824.8470795035118,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2403,7 +2408,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3850.9192136710253,
                             DurationInSeconds = 19066.052457010548,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2411,7 +2416,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 653.09224525632999,
                             DurationInSeconds = 4747.9313467654047,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2419,7 +2424,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8607.75615152723,
                             DurationInSeconds = 17011.369964652797,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2427,7 +2432,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5664.2725911270445,
                             DurationInSeconds = 14411.119974796884,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2435,7 +2440,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7283.0698762020147,
                             DurationInSeconds = 8131.3332103426874,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2443,7 +2448,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5550.8021231671401,
                             DurationInSeconds = 8802.3401784951584,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2451,7 +2456,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1789.4087116131345,
                             DurationInSeconds = 13533.696301450198,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2459,7 +2464,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 784.23442087152046,
                             DurationInSeconds = 8043.1252975880579,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2467,7 +2472,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5986.1317293382699,
                             DurationInSeconds = 5709.1604639774869,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2475,7 +2480,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2730.3239644623918,
                             DurationInSeconds = 5439.1205922388017,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2483,7 +2488,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5382.9032490414111,
                             DurationInSeconds = 8382.588711972543,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2491,7 +2496,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8999.4926851216842,
                             DurationInSeconds = 5312.7672083575953,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2499,7 +2504,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1914.770102280193,
                             DurationInSeconds = 7484.8308517668747,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2507,7 +2512,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9536.4873428595311,
                             DurationInSeconds = 11531.807055613064,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2515,7 +2520,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2641.1816562847957,
                             DurationInSeconds = 3810.969208706189,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2523,7 +2528,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9116.6029791995134,
                             DurationInSeconds = 13634.813321557698,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2531,7 +2536,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 984.04947442173841,
                             DurationInSeconds = 16581.974637892523,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2539,7 +2544,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1050.8960696104268,
                             DurationInSeconds = 19471.782074907482,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2547,7 +2552,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2833.6673485234896,
                             DurationInSeconds = 15849.654064364344,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2555,7 +2560,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8586.9256982834704,
                             DurationInSeconds = 8410.1205762437276,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2563,7 +2568,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2516.7219305773501,
                             DurationInSeconds = 15101.302149124991,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2571,7 +2576,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 12, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 415.67285214244208,
                             DurationInSeconds = 5192.4869008231753,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2579,7 +2584,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6304.2455776763045,
                             DurationInSeconds = 4516.8460303855181,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2587,7 +2592,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3308.2841090430143,
                             DurationInSeconds = 10284.146358734972,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2595,7 +2600,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6145.995516804257,
                             DurationInSeconds = 6091.450330534044,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2603,7 +2608,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7461.3407238585505,
                             DurationInSeconds = 16464.546798730014,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2611,7 +2616,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3711.0120171095127,
                             DurationInSeconds = 16904.463162489476,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2619,7 +2624,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4794.3773867545142,
                             DurationInSeconds = 2522.182654409266,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2627,7 +2632,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9605.4554573343248,
                             DurationInSeconds = 4941.9708051297093,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2635,7 +2640,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5149.6836144147328,
                             DurationInSeconds = 9476.4998547327614,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2643,7 +2648,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 385.41189860070585,
                             DurationInSeconds = 7506.3767838867161,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2651,7 +2656,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3300.5992970674447,
                             DurationInSeconds = 14210.188925767925,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2659,7 +2664,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7802.2301994674071,
                             DurationInSeconds = 5440.6230242483798,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2667,7 +2672,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7196.8246432372107,
                             DurationInSeconds = 5448.5211389438427,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2675,7 +2680,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5515.5780159128117,
                             DurationInSeconds = 2614.6607947456337,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2683,7 +2688,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 355.05418730205815,
                             DurationInSeconds = 1374.7371944602355,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2691,7 +2696,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1286.3682913166776,
                             DurationInSeconds = 19486.854979095777,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2699,7 +2704,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9791.5826466818326,
                             DurationInSeconds = 16118.89667810569,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2707,7 +2712,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5671.9363320236207,
                             DurationInSeconds = 19167.43732640208,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2715,7 +2720,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3808.578672981796,
                             DurationInSeconds = 3031.2696425960607,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2723,7 +2728,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2856.3496756397999,
                             DurationInSeconds = 6485.9473734659086,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2731,7 +2736,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5301.4593816490269,
                             DurationInSeconds = 8814.9112223383054,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2739,7 +2744,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5550.4825376254385,
                             DurationInSeconds = 7809.0636133133139,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2747,7 +2752,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2363.1924673046647,
                             DurationInSeconds = 8444.1857548208736,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2755,7 +2760,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7365.3702612256657,
                             DurationInSeconds = 12213.926353555813,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2763,7 +2768,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 635.20595088953462,
                             DurationInSeconds = 7374.5605240754658,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2771,7 +2776,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 13, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7945.7515632839632,
                             DurationInSeconds = 4463.969662747314,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2779,7 +2784,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9776.3511866443259,
                             DurationInSeconds = 19229.386196196239,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2787,7 +2792,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2920.5417315937639,
                             DurationInSeconds = 4736.4459738239821,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2795,7 +2800,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2514.5285876449043,
                             DurationInSeconds = 14231.559711913289,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2803,7 +2808,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4042.1644144649122,
                             DurationInSeconds = 10252.027422187246,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2811,7 +2816,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5805.0959060482628,
                             DurationInSeconds = 17498.631029276254,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2819,7 +2824,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6788.5871353227876,
                             DurationInSeconds = 14362.60846698324,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2827,7 +2832,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8157.3501396487691,
                             DurationInSeconds = 7118.3554123210552,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2835,7 +2840,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3859.9273711998512,
                             DurationInSeconds = 19305.468852677841,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2843,7 +2848,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9210.4144777040001,
                             DurationInSeconds = 9912.6607958130389,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2851,7 +2856,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 669.02770326298128,
                             DurationInSeconds = 8027.463730080658,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2859,7 +2864,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6586.7780743515859,
                             DurationInSeconds = 15990.026284549756,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2867,7 +2872,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7146.2219315834827,
                             DurationInSeconds = 17086.814065776372,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2875,7 +2880,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4509.0421518394796,
                             DurationInSeconds = 8350.9885265196535,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2883,7 +2888,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2967.0396866311848,
                             DurationInSeconds = 3176.2176936495334,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2891,7 +2896,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4290.3286815685469,
                             DurationInSeconds = 18046.492314753432,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2899,7 +2904,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3107.3284271021498,
                             DurationInSeconds = 18276.12526653301,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2907,7 +2912,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1701.5737854530691,
                             DurationInSeconds = 11441.98423924475,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2915,7 +2920,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5592.374600871869,
                             DurationInSeconds = 12748.030217421347,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2923,7 +2928,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3770.4521676741369,
                             DurationInSeconds = 11466.754092837298,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2931,7 +2936,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9793.8294893769671,
                             DurationInSeconds = 5835.0218235288485,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2939,7 +2944,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3367.1670643456059,
                             DurationInSeconds = 974.48240555197026,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2947,7 +2952,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5929.3604459281687,
                             DurationInSeconds = 10341.162432172017,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2955,7 +2960,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3757.2702536558868,
                             DurationInSeconds = 19447.715868481377,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2963,7 +2968,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5358.1155955614222,
                             DurationInSeconds = 10166.610083801086,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2971,7 +2976,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 14, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7892.1021658164755,
                             DurationInSeconds = 17791.882947295238,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -2979,7 +2984,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3473.3982540360812,
                             DurationInSeconds = 3006.6118749656825,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -2987,7 +2992,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1258.050419475712,
                             DurationInSeconds = 19302.62410337411,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -2995,7 +3000,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1998.5613851735777,
                             DurationInSeconds = 8516.0941749882786,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3003,7 +3008,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7371.5660046200119,
                             DurationInSeconds = 236.28109764559008,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3011,7 +3016,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3984.2145100925763,
                             DurationInSeconds = 2765.7366119430576,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3019,7 +3024,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5930.6683526613397,
                             DurationInSeconds = 14687.694350613814,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3027,7 +3032,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6961.1442518577451,
                             DurationInSeconds = 5467.1193810814702,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3035,7 +3040,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9476.6817284591561,
                             DurationInSeconds = 14724.740149704272,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3043,7 +3048,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4607.7149805257986,
                             DurationInSeconds = 3190.6620634005176,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3051,7 +3056,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8252.6077815259341,
                             DurationInSeconds = 9903.4876380784135,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3059,7 +3064,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4463.9473333654541,
                             DurationInSeconds = 6903.9041208609251,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3067,7 +3072,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 833.39575893569076,
                             DurationInSeconds = 13186.135211962812,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3075,7 +3080,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1753.2185576520012,
                             DurationInSeconds = 3708.4321744347831,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3083,7 +3088,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9036.565521849172,
                             DurationInSeconds = 18358.449056107627,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3091,7 +3096,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5236.5508169236036,
                             DurationInSeconds = 13285.619853832364,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3099,7 +3104,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1812.8026794802606,
                             DurationInSeconds = 16670.591758497161,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3107,7 +3112,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7834.9919776003408,
                             DurationInSeconds = 2735.3956685638277,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3115,7 +3120,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7384.8718967722816,
                             DurationInSeconds = 7087.5466690173762,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3123,7 +3128,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3731.253550659188,
                             DurationInSeconds = 17177.280580806168,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3131,7 +3136,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2327.7024465823115,
                             DurationInSeconds = 9349.8362303351878,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3139,7 +3144,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5584.1767523085018,
                             DurationInSeconds = 16439.856804008909,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3147,7 +3152,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7903.9543420466516,
                             DurationInSeconds = 3623.8422537988099,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3155,7 +3160,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3193.8208843935531,
                             DurationInSeconds = 12673.614621200901,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3163,7 +3168,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4996.2789790994457,
                             DurationInSeconds = 18327.621935300107,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3171,7 +3176,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 15, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1224.1182762462122,
                             DurationInSeconds = 4804.5073298414991,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3179,7 +3184,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9836.0700067480866,
                             DurationInSeconds = 3750.8376053408256,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3187,7 +3192,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7700.6866309391316,
                             DurationInSeconds = 756.94429783466774,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3195,7 +3200,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6882.8545733913488,
                             DurationInSeconds = 12606.308536906936,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3203,7 +3208,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 209.79438570612535,
                             DurationInSeconds = 17879.553096961274,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3211,7 +3216,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4559.9210156675726,
                             DurationInSeconds = 16387.587543821737,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3219,7 +3224,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6680.7347623350306,
                             DurationInSeconds = 19620.149834932818,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3227,7 +3232,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6894.68643973902,
                             DurationInSeconds = 1606.0148787282801,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3235,7 +3240,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4448.1171053595299,
                             DurationInSeconds = 6837.9426766906599,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3243,7 +3248,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5698.1333857082072,
                             DurationInSeconds = 16881.290027450443,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3251,7 +3256,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5100.1466643401282,
                             DurationInSeconds = 17364.102833826932,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3259,7 +3264,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4318.3264719950721,
                             DurationInSeconds = 13945.439930541186,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3267,7 +3272,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7325.6140281187481,
                             DurationInSeconds = 12952.486114995294,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3275,7 +3280,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4036.2836439394641,
                             DurationInSeconds = 18703.930876743067,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3283,7 +3288,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6675.8373892898235,
                             DurationInSeconds = 18047.924399755513,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3291,7 +3296,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8997.1279464287418,
                             DurationInSeconds = 12102.069001339662,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3299,7 +3304,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8076.8089658705485,
                             DurationInSeconds = 1413.188022976459,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3307,7 +3312,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8234.4321172969685,
                             DurationInSeconds = 4107.2260510922624,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3315,7 +3320,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9896.4651862562532,
                             DurationInSeconds = 9005.2983997108113,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3323,7 +3328,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9502.630202862385,
                             DurationInSeconds = 6954.653314219152,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3331,7 +3336,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1718.0097146124053,
                             DurationInSeconds = 14115.879855709054,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3339,7 +3344,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6965.2898912485134,
                             DurationInSeconds = 16898.800380640139,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3347,7 +3352,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8506.2282679713517,
                             DurationInSeconds = 15943.32175478257,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3355,7 +3360,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7811.0893191077475,
                             DurationInSeconds = 10749.471604619839,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3363,7 +3368,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3738.8845466753583,
                             DurationInSeconds = 6275.6477860844552,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3371,7 +3376,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 16, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 504.6606919181678,
                             DurationInSeconds = 8676.4308128742596,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3379,7 +3384,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6484.9570545465776,
                             DurationInSeconds = 5029.3315076427043,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3387,7 +3392,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9786.1609933556992,
                             DurationInSeconds = 3353.1207817607533,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3395,7 +3400,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8696.7661241095084,
                             DurationInSeconds = 17520.899481593115,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3403,7 +3408,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3527.316339243293,
                             DurationInSeconds = 4179.7771026956852,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3411,7 +3416,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1289.2569912819529,
                             DurationInSeconds = 19661.243186823125,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3419,7 +3424,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5936.4928996589106,
                             DurationInSeconds = 18695.713755672037,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3427,7 +3432,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4770.7450507242829,
                             DurationInSeconds = 18382.223191791487,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3435,7 +3440,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4723.9387624831452,
                             DurationInSeconds = 19127.699199182603,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3443,7 +3448,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8586.9708957150287,
                             DurationInSeconds = 3895.5510773324499,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3451,7 +3456,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 836.40144238310768,
                             DurationInSeconds = 11629.216555230711,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3459,7 +3464,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2362.8240310622932,
                             DurationInSeconds = 5245.1234436242676,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3467,7 +3472,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7509.9693912824687,
                             DurationInSeconds = 8969.9337761987445,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3475,7 +3480,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1889.6703525058665,
                             DurationInSeconds = 4082.0883376771544,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3483,7 +3488,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7055.7109447267449,
                             DurationInSeconds = 776.01464804191892,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3491,7 +3496,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9156.8999596121739,
                             DurationInSeconds = 18306.125221316233,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3499,7 +3504,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 692.03544650856406,
                             DurationInSeconds = 9447.0857673526152,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3507,7 +3512,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9286.5653899202844,
                             DurationInSeconds = 12509.021427966285,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3515,7 +3520,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5578.9112271108424,
                             DurationInSeconds = 7353.533892196373,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3523,7 +3528,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6664.3122419002584,
                             DurationInSeconds = 2768.8495944140386,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3531,7 +3536,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1208.9086102166516,
                             DurationInSeconds = 4113.4698510978924,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3539,7 +3544,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 201.44427316174972,
                             DurationInSeconds = 16638.072099430341,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3547,7 +3552,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6018.1236299438797,
                             DurationInSeconds = 10101.450724729866,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3555,7 +3560,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7893.4185307352318,
                             DurationInSeconds = 9407.9341650594361,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3563,7 +3568,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6508.5612683407271,
                             DurationInSeconds = 16602.60171090925,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3571,7 +3576,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 17, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2794.0681662708939,
                             DurationInSeconds = 14664.207345008524,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3579,7 +3584,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7068.0309938323699,
                             DurationInSeconds = 15714.770492930895,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3587,7 +3592,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1017.1320835260351,
                             DurationInSeconds = 15479.956599908652,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3595,7 +3600,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9684.8090848733136,
                             DurationInSeconds = 7039.0248124144737,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3603,7 +3608,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4407.2144193652302,
                             DurationInSeconds = 2050.0217318781447,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3611,7 +3616,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6919.3613414850061,
                             DurationInSeconds = 17555.609303689729,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3619,7 +3624,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5090.2377051356734,
                             DurationInSeconds = 10896.440219464197,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3627,7 +3632,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6858.296641398395,
                             DurationInSeconds = 12179.054173365175,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3635,7 +3640,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5567.0283801702617,
                             DurationInSeconds = 5635.9942897639803,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3643,7 +3648,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8302.3953193123307,
                             DurationInSeconds = 7586.8145638615988,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3651,7 +3656,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3272.1681277868138,
                             DurationInSeconds = 9569.0023310180677,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3659,7 +3664,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5840.5295216513405,
                             DurationInSeconds = 16038.20969665114,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3667,7 +3672,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9790.7930993315913,
                             DurationInSeconds = 11088.254163478287,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3675,7 +3680,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8142.1525612829537,
                             DurationInSeconds = 11715.486338970912,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3683,7 +3688,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4077.2272941903116,
                             DurationInSeconds = 10084.218258990779,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3691,7 +3696,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3941.0596981409658,
                             DurationInSeconds = 17582.247098170526,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3699,7 +3704,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 875.65989343704109,
                             DurationInSeconds = 9105.8047331157941,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3707,7 +3712,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6589.0203628243089,
                             DurationInSeconds = 18179.072410824367,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3715,7 +3720,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2988.8483418871247,
                             DurationInSeconds = 12515.036578510062,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3723,7 +3728,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6768.02479387536,
                             DurationInSeconds = 14877.752917036631,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3731,7 +3736,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7773.1796344756267,
                             DurationInSeconds = 11226.727140400064,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3739,7 +3744,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6888.3642649688227,
                             DurationInSeconds = 18256.747340524027,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3747,7 +3752,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6795.0900796239021,
                             DurationInSeconds = 9938.8007716307693,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3755,7 +3760,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5060.8529269794635,
                             DurationInSeconds = 11422.823090541067,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3763,7 +3768,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7491.6097111754561,
                             DurationInSeconds = 16205.901482552445,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3771,7 +3776,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 18, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5196.5805279007327,
                             DurationInSeconds = 6149.618921775831,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3779,7 +3784,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7672.7107991914636,
                             DurationInSeconds = 5783.8433268130802,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3787,7 +3792,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8052.3240675981215,
                             DurationInSeconds = 15305.934733193591,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3795,7 +3800,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2386.3352746496394,
                             DurationInSeconds = 17944.25728156343,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3803,7 +3808,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 829.87365743372641,
                             DurationInSeconds = 19558.456248637995,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3811,7 +3816,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 473.98533190340163,
                             DurationInSeconds = 11718.55972380463,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3819,7 +3824,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6942.9723980256404,
                             DurationInSeconds = 785.1344775283012,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3827,7 +3832,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4598.0549932387121,
                             DurationInSeconds = 15698.815703783199,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3835,7 +3840,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6505.4028935869474,
                             DurationInSeconds = 17429.449389256784,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3843,7 +3848,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2059.0135413840389,
                             DurationInSeconds = 2129.8321286832256,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3851,7 +3856,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7791.2751053242855,
                             DurationInSeconds = 12282.629717047637,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3859,7 +3864,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4443.5680196109734,
                             DurationInSeconds = 469.13177840462498,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3867,7 +3872,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3412.448818044209,
                             DurationInSeconds = 16690.599982169057,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3875,7 +3880,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 390.35405582858124,
                             DurationInSeconds = 7853.7885786186953,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3883,7 +3888,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9286.2870478482328,
                             DurationInSeconds = 10771.337434404171,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3891,7 +3896,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6013.7877556111334,
                             DurationInSeconds = 2245.4093993645433,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3899,7 +3904,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7861.5639945764324,
                             DurationInSeconds = 15717.985547262831,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3907,7 +3912,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5088.4534896725563,
                             DurationInSeconds = 6613.4965441400809,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3915,7 +3920,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9137.6460804536491,
                             DurationInSeconds = 6181.264339080667,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3923,7 +3928,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6579.8007968777601,
                             DurationInSeconds = 17706.593059153336,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3931,7 +3936,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5563.705528415956,
                             DurationInSeconds = 6733.2725201676158,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3939,7 +3944,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2797.9591927982979,
                             DurationInSeconds = 14025.252716899959,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3947,7 +3952,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 768.79760667680341,
                             DurationInSeconds = 6252.4721930454507,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3955,7 +3960,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 817.707576922562,
                             DurationInSeconds = 6673.5071185161369,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3963,7 +3968,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9835.0750959323032,
                             DurationInSeconds = 7918.9529398502173,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3971,7 +3976,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 19, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1177.8065964381103,
                             DurationInSeconds = 5314.8750119604856,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -3979,7 +3984,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7008.4969147601332,
                             DurationInSeconds = 12110.271176451255,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -3987,7 +3992,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4437.4718215573575,
                             DurationInSeconds = 17801.648632626613,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -3995,7 +4000,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1324.547885860989,
                             DurationInSeconds = 9341.6355815210827,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4003,7 +4008,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8181.3642698555177,
                             DurationInSeconds = 13398.247194563028,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4011,7 +4016,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2384.0915418686163,
                             DurationInSeconds = 15745.025505734653,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4019,7 +4024,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5559.0395150170807,
                             DurationInSeconds = 5717.5230967669513,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4027,7 +4032,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5809.3506150343874,
                             DurationInSeconds = 11701.406229197622,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4035,7 +4040,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3005.1214537734736,
                             DurationInSeconds = 4353.345132526817,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4043,7 +4048,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5296.1188356852726,
                             DurationInSeconds = 6236.2908964677026,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4051,7 +4056,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3636.7999002836395,
                             DurationInSeconds = 461.49365517959421,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4059,7 +4064,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3032.0148802942335,
                             DurationInSeconds = 19034.967575612398,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4067,7 +4072,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1899.1777782996583,
                             DurationInSeconds = 18386.016932380651,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4075,7 +4080,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8743.8935093565069,
                             DurationInSeconds = 1810.7986096248333,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4083,7 +4088,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8415.1669563109481,
                             DurationInSeconds = 4505.8414025993097,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4091,7 +4096,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8066.4201936120435,
                             DurationInSeconds = 16087.009577932693,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4099,7 +4104,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 212.95079715928068,
                             DurationInSeconds = 14835.349263914632,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4107,7 +4112,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7447.8926493301315,
                             DurationInSeconds = 11126.328194310792,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4115,7 +4120,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4839.2128624367087,
                             DurationInSeconds = 8813.6151837240395,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4123,7 +4128,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8719.3346139754158,
                             DurationInSeconds = 4133.5511953875575,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4131,7 +4136,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5016.423204827156,
                             DurationInSeconds = 15277.965474814217,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4139,7 +4144,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5744.8396979302961,
                             DurationInSeconds = 18754.396504986285,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4147,7 +4152,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5828.288806400541,
                             DurationInSeconds = 16140.000763302482,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4155,7 +4160,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9692.7648249183712,
                             DurationInSeconds = 7334.7816825207501,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4163,7 +4168,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2634.7181398353341,
                             DurationInSeconds = 6484.9171647453277,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4171,7 +4176,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 20, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5998.3335003401562,
                             DurationInSeconds = 12706.5872833838,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4179,7 +4184,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5230.3443604085369,
                             DurationInSeconds = 19113.755594954844,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4187,7 +4192,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4922.2765531593941,
                             DurationInSeconds = 16510.162253398237,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4195,7 +4200,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5871.8422186589742,
                             DurationInSeconds = 8800.255528715601,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4203,7 +4208,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 928.24275491157277,
                             DurationInSeconds = 6523.2179209676178,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4211,7 +4216,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7464.2425806500705,
                             DurationInSeconds = 14289.121393436913,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4219,7 +4224,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7388.555348251859,
                             DurationInSeconds = 6134.1314308038518,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4227,7 +4232,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8014.0420795363416,
                             DurationInSeconds = 2030.4046650315704,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4235,7 +4240,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7161.3296425908839,
                             DurationInSeconds = 4882.998452610208,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4243,7 +4248,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6765.1325440178862,
                             DurationInSeconds = 12326.638189214449,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4251,7 +4256,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9949.7895320190619,
                             DurationInSeconds = 9754.7346872214912,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4259,7 +4264,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6072.2762939585136,
                             DurationInSeconds = 13426.891480811029,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4267,7 +4272,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2932.7712347138076,
                             DurationInSeconds = 11137.327209549749,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4275,7 +4280,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2877.3158457005679,
                             DurationInSeconds = 14406.306645445595,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4283,7 +4288,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7037.6197431943829,
                             DurationInSeconds = 8072.6109751141566,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4291,7 +4296,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 601.17518165770798,
                             DurationInSeconds = 9091.1356127897179,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4299,7 +4304,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8024.0449048081337,
                             DurationInSeconds = 2847.8557639343894,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4307,7 +4312,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5623.85367674593,
                             DurationInSeconds = 13945.025459699333,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4315,7 +4320,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2110.3493024378822,
                             DurationInSeconds = 1263.3141175694066,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4323,7 +4328,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2385.7225286308794,
                             DurationInSeconds = 7066.1594848319037,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4331,7 +4336,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9372.3212947365973,
                             DurationInSeconds = 8925.4707028661251,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4339,7 +4344,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8389.1969044572179,
                             DurationInSeconds = 14913.13299618533,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4347,7 +4352,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3639.66438101313,
                             DurationInSeconds = 16291.317642131033,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4355,7 +4360,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1100.5221665147351,
                             DurationInSeconds = 19072.396932605527,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4363,7 +4368,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7857.1148770354239,
                             DurationInSeconds = 120.36057043123682,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4371,7 +4376,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 21, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4269.9466979119597,
                             DurationInSeconds = 279.61373665342023,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4379,7 +4384,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 840.83954419769577,
                             DurationInSeconds = 7605.9548210215926,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4387,7 +4392,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6258.8152631683142,
                             DurationInSeconds = 194.37007987634263,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4395,7 +4400,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3312.0250271356813,
                             DurationInSeconds = 224.7619694326421,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4403,7 +4408,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6215.9673754563946,
                             DurationInSeconds = 9544.1682596542305,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4411,7 +4416,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6495.1029899967143,
                             DurationInSeconds = 121.9638669681564,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4419,7 +4424,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3853.6061021264627,
                             DurationInSeconds = 3592.7040330645723,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4427,7 +4432,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9441.6130260432765,
                             DurationInSeconds = 5776.9562018460456,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4435,7 +4440,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2631.3127093138,
                             DurationInSeconds = 16599.966320695719,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4443,7 +4448,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 585.26762267954507,
                             DurationInSeconds = 16702.037674145162,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4451,7 +4456,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7679.1277962456115,
                             DurationInSeconds = 5417.6458870543784,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4459,7 +4464,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8670.0122604653279,
                             DurationInSeconds = 12335.128456223969,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4467,7 +4472,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 710.30800091081915,
                             DurationInSeconds = 1893.9114628270324,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4475,7 +4480,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6499.2384437708479,
                             DurationInSeconds = 16422.753236501107,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4483,7 +4488,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5245.8967021296876,
                             DurationInSeconds = 14353.512766157888,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4491,7 +4496,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8302.2782573214645,
                             DurationInSeconds = 4267.8082304952441,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4499,7 +4504,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5775.9590905915256,
                             DurationInSeconds = 10077.873026010251,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4507,7 +4512,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6124.1430450140178,
                             DurationInSeconds = 6898.487877506017,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4515,7 +4520,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1673.9281983692372,
                             DurationInSeconds = 13647.184409052488,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4523,7 +4528,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5971.7938360661929,
                             DurationInSeconds = 17829.318009019244,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4531,7 +4536,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7987.2170899241082,
                             DurationInSeconds = 1998.0752186610612,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4539,7 +4544,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1346.6697762752394,
                             DurationInSeconds = 18067.558561044902,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4547,7 +4552,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4449.4963478178734,
                             DurationInSeconds = 5981.1632543875276,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4555,7 +4560,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5719.6558978533285,
                             DurationInSeconds = 483.408980285533,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4563,7 +4568,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2175.666146845102,
                             DurationInSeconds = 7074.2575504147617,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4571,7 +4576,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 22, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 520.78114009549927,
                             DurationInSeconds = 10980.477592100322,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4579,7 +4584,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7034.6665107052031,
                             DurationInSeconds = 10505.641852267609,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4587,7 +4592,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1023.5071659955144,
                             DurationInSeconds = 14667.74795956366,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4595,7 +4600,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2308.5789784677454,
                             DurationInSeconds = 4624.8970853164274,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4603,7 +4608,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2379.4222041779226,
                             DurationInSeconds = 19147.781961277436,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4611,7 +4616,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 413.36086363027528,
                             DurationInSeconds = 1080.3427376545258,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4619,7 +4624,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6535.3223139642487,
                             DurationInSeconds = 11167.469717711574,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4627,7 +4632,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 671.24347928715042,
                             DurationInSeconds = 6172.0875991042467,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4635,7 +4640,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8820.6869092156394,
                             DurationInSeconds = 15953.005141867883,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4643,7 +4648,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4858.7456724495296,
                             DurationInSeconds = 9907.703382508942,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4651,7 +4656,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3727.2066305533654,
                             DurationInSeconds = 9079.2698295971277,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4659,7 +4664,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8537.8518982062269,
                             DurationInSeconds = 317.28292002683645,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4667,7 +4672,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8462.4070656905369,
                             DurationInSeconds = 9885.5169721735438,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4675,7 +4680,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1188.802669310707,
                             DurationInSeconds = 10725.094402314757,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4683,7 +4688,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 573.36550851542449,
                             DurationInSeconds = 1251.4671840657127,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4691,7 +4696,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9626.0071342901192,
                             DurationInSeconds = 14763.563778961243,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4699,7 +4704,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5612.7121011283862,
                             DurationInSeconds = 8543.2531945411811,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4707,7 +4712,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4685.1333642296704,
                             DurationInSeconds = 12125.571405123226,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4715,7 +4720,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1659.116642791503,
                             DurationInSeconds = 9865.5847039360197,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4723,7 +4728,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1271.7634764055381,
                             DurationInSeconds = 19485.273957702662,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4731,7 +4736,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9627.7502774299592,
                             DurationInSeconds = 5495.6028825523827,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4739,7 +4744,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5512.624246538031,
                             DurationInSeconds = 15106.505782552083,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4747,7 +4752,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8749.7411299591531,
                             DurationInSeconds = 12464.174596333662,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4755,7 +4760,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8705.8030499703891,
                             DurationInSeconds = 2654.8120441429569,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4763,7 +4768,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9004.7008922184214,
                             DurationInSeconds = 8723.465932267527,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4771,7 +4776,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 23, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9786.8181170061616,
                             DurationInSeconds = 1004.3013138175547,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4779,7 +4784,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 370.02622326734001,
                             DurationInSeconds = 15891.592043368479,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4787,7 +4792,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9412.8675758401005,
                             DurationInSeconds = 18306.468978339224,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4795,7 +4800,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4059.8058060961353,
                             DurationInSeconds = 2614.7495423257465,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4803,7 +4808,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2027.4412248314118,
                             DurationInSeconds = 7677.6698886793356,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4811,7 +4816,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8736.6325737613515,
                             DurationInSeconds = 10713.046656480954,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4819,7 +4824,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5594.5668502819099,
                             DurationInSeconds = 17136.354849288789,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4827,7 +4832,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6483.0135907854228,
                             DurationInSeconds = 18166.590423555084,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4835,7 +4840,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2996.8022303611383,
                             DurationInSeconds = 1369.8901774273852,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4843,7 +4848,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5254.225305136918,
                             DurationInSeconds = 8884.4018758990042,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4851,7 +4856,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2650.7964284814816,
                             DurationInSeconds = 10349.765878484777,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4859,7 +4864,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5461.7807388314895,
                             DurationInSeconds = 11643.062311699445,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4867,7 +4872,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2179.2244647967409,
                             DurationInSeconds = 8871.2974755441901,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4875,7 +4880,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3714.651254277042,
                             DurationInSeconds = 18747.326525817974,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4883,7 +4888,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2400.6590023591866,
                             DurationInSeconds = 2878.3786735276349,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4891,7 +4896,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 999.48263238069626,
                             DurationInSeconds = 701.62406005402977,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4899,7 +4904,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3204.1681165989976,
                             DurationInSeconds = 15327.575522307327,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4907,7 +4912,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2594.9416525065849,
                             DurationInSeconds = 17861.413035241465,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4915,7 +4920,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4051.8639699398827,
                             DurationInSeconds = 4984.6430345947128,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4923,7 +4928,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6162.019387712674,
                             DurationInSeconds = 14483.351432434563,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4931,7 +4936,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6522.6370751130307,
                             DurationInSeconds = 477.24645122169875,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4939,7 +4944,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5992.3129982686041,
                             DurationInSeconds = 5043.660146856274,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4947,7 +4952,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2424.016480231181,
                             DurationInSeconds = 17130.005593905775,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4955,7 +4960,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6818.1272464741942,
                             DurationInSeconds = 10459.624895527215,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4963,7 +4968,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1704.5750687697421,
                             DurationInSeconds = 4583.2531720754423,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4971,7 +4976,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 24, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8134.2543828869993,
                             DurationInSeconds = 9235.9214165359881,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -4979,7 +4984,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8811.9645068646787,
                             DurationInSeconds = 11163.632559182357,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -4987,7 +4992,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6117.414585988924,
                             DurationInSeconds = 11611.313319202569,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -4995,7 +5000,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3039.3296189226303,
                             DurationInSeconds = 11018.707553288996,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5003,7 +5008,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9283.0905873664778,
                             DurationInSeconds = 6780.2872174669737,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5011,7 +5016,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7517.0092622295415,
                             DurationInSeconds = 15919.461675521943,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5019,7 +5024,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1368.4716061595914,
                             DurationInSeconds = 14973.870257584082,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5027,7 +5032,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9597.0244554831152,
                             DurationInSeconds = 2505.0497495238124,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5035,7 +5040,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6163.2960681463146,
                             DurationInSeconds = 11533.874806321843,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5043,7 +5048,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1333.0783306978351,
                             DurationInSeconds = 17084.347893224309,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5051,7 +5056,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3479.8682932956594,
                             DurationInSeconds = 19500.482124632177,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5059,7 +5064,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3710.0498273326575,
                             DurationInSeconds = 10550.170512899042,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5067,7 +5072,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2748.233867295914,
                             DurationInSeconds = 8536.7689433926553,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5075,7 +5080,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8069.7139114937791,
                             DurationInSeconds = 19535.447701811492,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5083,7 +5088,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7849.1530636418856,
                             DurationInSeconds = 19227.333929455359,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5091,7 +5096,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6057.2323259387622,
                             DurationInSeconds = 19667.704386440677,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5099,7 +5104,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 685.90268779532414,
                             DurationInSeconds = 16927.146624501005,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5107,7 +5112,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6553.3211988337871,
                             DurationInSeconds = 19274.59462315026,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5115,7 +5120,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4116.8469494591991,
                             DurationInSeconds = 13074.62896529815,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5123,7 +5128,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 845.91049411918345,
                             DurationInSeconds = 15296.355714304418,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5131,7 +5136,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4454.022088764229,
                             DurationInSeconds = 1106.9530446733743,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5139,7 +5144,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8117.0541039707696,
                             DurationInSeconds = 3991.6903615660503,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5147,7 +5152,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1268.4104356258713,
                             DurationInSeconds = 17949.041019699787,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5155,7 +5160,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1165.7064756571594,
                             DurationInSeconds = 11896.542775520073,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5163,7 +5168,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4869.4063731460237,
                             DurationInSeconds = 15849.583067056359,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5171,7 +5176,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 25, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2883.225505976875,
                             DurationInSeconds = 11471.863824613958,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5179,7 +5184,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2413.9064956220313,
                             DurationInSeconds = 17566.307848425917,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5187,7 +5192,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 391.87249412029132,
                             DurationInSeconds = 19930.564170029687,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5195,7 +5200,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4687.6275259837957,
                             DurationInSeconds = 10749.154417540909,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5203,7 +5208,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4570.2627661603483,
                             DurationInSeconds = 3740.5407398959592,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5211,7 +5216,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7096.4037343266382,
                             DurationInSeconds = 13456.642767352829,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5219,7 +5224,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7321.9235338844501,
                             DurationInSeconds = 16919.182626581034,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5227,7 +5232,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9056.7094013035839,
                             DurationInSeconds = 4156.1000394564453,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5235,7 +5240,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 620.97097749065142,
                             DurationInSeconds = 13086.47429417999,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5243,7 +5248,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3595.1947574996248,
                             DurationInSeconds = 9641.8612771270582,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5251,7 +5256,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8885.5088289940486,
                             DurationInSeconds = 2924.3378411865069,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5259,7 +5264,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8882.2809198492723,
                             DurationInSeconds = 17102.518322703054,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5267,7 +5272,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9848.5381408406793,
                             DurationInSeconds = 11757.1870388931,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5275,7 +5280,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3937.7870955955827,
                             DurationInSeconds = 8541.1895668507295,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5283,7 +5288,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9308.0015720307692,
                             DurationInSeconds = 7595.6277809190369,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5291,7 +5296,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6613.2530124717759,
                             DurationInSeconds = 14144.13075393251,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5299,7 +5304,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9866.3174685321719,
                             DurationInSeconds = 11104.896332789394,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5307,7 +5312,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7044.8110295968045,
                             DurationInSeconds = 12311.456469111088,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5315,7 +5320,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4815.5493481310714,
                             DurationInSeconds = 7310.8898600279626,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5323,7 +5328,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6393.9005984514879,
                             DurationInSeconds = 17401.989550263348,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5331,7 +5336,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1948.2155897811861,
                             DurationInSeconds = 18985.584927571006,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5339,7 +5344,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 722.76189941721464,
                             DurationInSeconds = 10037.793977363586,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5347,7 +5352,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4107.1166054117984,
                             DurationInSeconds = 17311.731979724093,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5355,7 +5360,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6229.2154409530694,
                             DurationInSeconds = 897.73795893536476,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5363,7 +5368,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4475.494315098661,
                             DurationInSeconds = 9909.1026844972039,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5371,7 +5376,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 26, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6954.7217380902412,
                             DurationInSeconds = 18195.396643725187,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5379,7 +5384,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8924.9025898771652,
                             DurationInSeconds = 2510.87822399282,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5387,7 +5392,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9872.1775173738206,
                             DurationInSeconds = 13290.785688458707,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5395,7 +5400,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5132.4152610360543,
                             DurationInSeconds = 12310.813058640082,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5403,7 +5408,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7441.264106654995,
                             DurationInSeconds = 1421.7796792966631,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5411,7 +5416,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6161.5179397643615,
                             DurationInSeconds = 17869.154486039457,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5419,7 +5424,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6813.2673300487513,
                             DurationInSeconds = 6066.9307265236848,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5427,7 +5432,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8369.7581645973733,
                             DurationInSeconds = 17512.202149631183,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5435,7 +5440,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1679.796245523574,
                             DurationInSeconds = 12382.768120615559,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5443,7 +5448,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9150.5485654580407,
                             DurationInSeconds = 8011.1623251019428,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5451,7 +5456,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3332.7631030204102,
                             DurationInSeconds = 6645.7903109395738,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5459,7 +5464,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6653.257234781493,
                             DurationInSeconds = 14453.790444455839,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5467,7 +5472,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1819.8317816515603,
                             DurationInSeconds = 179.10194838122601,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5475,7 +5480,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1914.8240601629752,
                             DurationInSeconds = 10166.490681596966,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5483,7 +5488,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 388.41747302180704,
                             DurationInSeconds = 12783.54337201544,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5491,7 +5496,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2935.2725428849667,
                             DurationInSeconds = 10613.468058623001,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5499,7 +5504,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1965.2606313121169,
                             DurationInSeconds = 8434.5423964456968,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5507,7 +5512,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8472.9669807030132,
                             DurationInSeconds = 2842.7045841093336,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5515,7 +5520,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8366.3388022819327,
                             DurationInSeconds = 17473.732620497838,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5523,7 +5528,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3365.0556478299818,
                             DurationInSeconds = 7153.2913820213917,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5531,7 +5536,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3270.135464335382,
                             DurationInSeconds = 14288.686160533129,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5539,7 +5544,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8772.0970082601107,
                             DurationInSeconds = 18552.061596370721,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5547,7 +5552,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7725.0008251587424,
                             DurationInSeconds = 13514.522315176382,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5555,7 +5560,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 677.70777996038987,
                             DurationInSeconds = 10487.987606501209,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5563,7 +5568,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2700.6391306264313,
                             DurationInSeconds = 4746.9966905008805,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5571,7 +5576,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 27, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 205.56232155612156,
                             DurationInSeconds = 19869.324965620668,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5579,7 +5584,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8158.9742802713472,
                             DurationInSeconds = 14385.349261284706,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5587,7 +5592,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6418.6404098260637,
                             DurationInSeconds = 1972.7971032656542,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5595,7 +5600,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1376.3808815578702,
                             DurationInSeconds = 17658.345715572679,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5603,7 +5608,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8882.1701842265102,
                             DurationInSeconds = 588.76255215918945,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5611,7 +5616,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9377.7917520984811,
                             DurationInSeconds = 824.0645228978882,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5619,7 +5624,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2843.6711299042859,
                             DurationInSeconds = 15480.056562957603,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5627,7 +5632,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2206.2995713428913,
                             DurationInSeconds = 1525.5333875689507,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5635,7 +5640,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9356.8969709927278,
                             DurationInSeconds = 2370.0031878991613,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5643,7 +5648,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7930.4804571324648,
                             DurationInSeconds = 2978.7391531055041,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5651,7 +5656,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1182.7995852925233,
                             DurationInSeconds = 7735.3649177515917,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5659,7 +5664,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8304.6144224032214,
                             DurationInSeconds = 13110.207719535876,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5667,7 +5672,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9278.7961076014617,
                             DurationInSeconds = 4562.6181120023157,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5675,7 +5680,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9434.6711657283213,
                             DurationInSeconds = 10057.665476818371,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5683,7 +5688,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5686.4479917636008,
                             DurationInSeconds = 9321.693306681218,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5691,7 +5696,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4820.8851089581003,
                             DurationInSeconds = 3129.3447927391826,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5699,7 +5704,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1932.7756404450663,
                             DurationInSeconds = 14728.843613972636,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5707,7 +5712,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1935.8681327160602,
                             DurationInSeconds = 11252.637293965099,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5715,7 +5720,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4464.4776851184133,
                             DurationInSeconds = 5614.7952886949051,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5723,7 +5728,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5908.0759138437979,
                             DurationInSeconds = 6488.906837808524,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5731,7 +5736,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 909.54925391967242,
                             DurationInSeconds = 11149.299877278096,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5739,7 +5744,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2721.0992243164728,
                             DurationInSeconds = 19953.14089533408,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5747,7 +5752,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2377.8748350648257,
                             DurationInSeconds = 15264.798842255848,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5755,7 +5760,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2224.2480193536694,
                             DurationInSeconds = 15732.765058629888,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5763,7 +5768,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 698.26072938692232,
                             DurationInSeconds = 11084.861555051091,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5771,7 +5776,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 28, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6761.0867351703218,
                             DurationInSeconds = 6309.4824223141077,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5779,7 +5784,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6619.9611442406931,
                             DurationInSeconds = 13089.295448779581,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5787,7 +5792,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5797.3231777815527,
                             DurationInSeconds = 7411.7012255917607,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5795,7 +5800,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9511.7248826554605,
                             DurationInSeconds = 9334.692701053973,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5803,7 +5808,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6426.7279863928625,
                             DurationInSeconds = 12901.626081142364,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5811,7 +5816,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6412.9826200074467,
                             DurationInSeconds = 11177.696908550091,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5819,7 +5824,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3251.1123493181422,
                             DurationInSeconds = 12234.931539200965,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5827,7 +5832,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6096.9515482674833,
                             DurationInSeconds = 10407.113572222574,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5835,7 +5840,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 459.9257678489783,
                             DurationInSeconds = 13912.628400248183,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5843,7 +5848,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3302.3881878708503,
                             DurationInSeconds = 6501.2189223955584,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5851,7 +5856,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7637.3127138625514,
                             DurationInSeconds = 6419.4650552017456,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5859,7 +5864,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9980.6962778647885,
                             DurationInSeconds = 19014.427093908005,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5867,7 +5872,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8237.5026547004163,
                             DurationInSeconds = 1861.7621632074295,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5875,7 +5880,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4626.6864145767613,
                             DurationInSeconds = 6167.2220083722668,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5883,7 +5888,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4769.9539986736145,
                             DurationInSeconds = 19582.869216487667,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5891,7 +5896,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2285.9392734665025,
                             DurationInSeconds = 1254.7948010793907,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5899,7 +5904,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5886.3811874247267,
                             DurationInSeconds = 10742.214956564807,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5907,7 +5912,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7185.9906216778218,
                             DurationInSeconds = 7138.0035092107501,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5915,7 +5920,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9935.4071079208279,
                             DurationInSeconds = 10240.134805355799,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5923,7 +5928,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4309.4030236257277,
                             DurationInSeconds = 14916.663591049861,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5931,7 +5936,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8673.1408429994935,
                             DurationInSeconds = 17886.737698556477,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5939,7 +5944,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7706.4461754440872,
                             DurationInSeconds = 3691.2784666785874,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5947,7 +5952,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1587.9079894380457,
                             DurationInSeconds = 5447.7144042151558,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5955,7 +5960,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9938.7077015260857,
                             DurationInSeconds = 19794.565107582355,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5963,7 +5968,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2310.8522798212948,
                             DurationInSeconds = 11681.259098773213,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5971,7 +5976,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 29, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1491.3739552304178,
                             DurationInSeconds = 18702.871470503305,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -5979,7 +5984,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7875.7070986776116,
                             DurationInSeconds = 2300.0001542516252,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -5987,7 +5992,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7048.1020636967969,
                             DurationInSeconds = 11013.635774219514,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -5995,7 +6000,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7576.5807994353836,
                             DurationInSeconds = 3347.4111533881605,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6003,7 +6008,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8462.2537891865486,
                             DurationInSeconds = 159.68104410184856,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6011,7 +6016,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5363.881461347205,
                             DurationInSeconds = 4541.7064658608952,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6019,7 +6024,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9819.3763803820621,
                             DurationInSeconds = 16775.065384485202,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6027,7 +6032,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7585.5547291918538,
                             DurationInSeconds = 10040.196947379161,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6035,7 +6040,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3670.7325559779474,
                             DurationInSeconds = 10948.685913879148,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6043,7 +6048,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3243.3670726028181,
                             DurationInSeconds = 4531.2839257091946,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6051,7 +6056,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5457.4207579368485,
                             DurationInSeconds = 19494.318178144626,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6059,7 +6064,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7404.1819759211658,
                             DurationInSeconds = 7948.4373586788879,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6067,7 +6072,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3251.7929028074809,
                             DurationInSeconds = 17961.682612281478,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6075,7 +6080,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4084.3272172892976,
                             DurationInSeconds = 3812.9699635485163,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6083,7 +6088,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1714.4590769532122,
                             DurationInSeconds = 2223.0188190362464,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6091,7 +6096,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4361.581294367551,
                             DurationInSeconds = 15647.768864665606,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6099,7 +6104,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3533.2458103337522,
                             DurationInSeconds = 11853.295125319059,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6107,7 +6112,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1938.3662746614209,
                             DurationInSeconds = 11835.382602252419,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6115,7 +6120,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5538.8561649993817,
                             DurationInSeconds = 4416.4281095917841,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6123,7 +6128,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1926.2042463474268,
                             DurationInSeconds = 14558.725895306074,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6131,7 +6136,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5720.4998998861538,
                             DurationInSeconds = 2208.7553406654779,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6139,7 +6144,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5328.9046549244176,
                             DurationInSeconds = 13186.312934153048,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6147,7 +6152,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6814.7125187642232,
                             DurationInSeconds = 14853.034557655465,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6155,7 +6160,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1210.2281278819066,
                             DurationInSeconds = 14451.050188318382,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6163,7 +6168,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 251.75560529626463,
                             DurationInSeconds = 8402.8545150494065,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6171,7 +6176,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 30, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3268.9382953589943,
                             DurationInSeconds = 8570.6906154246863,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6179,7 +6184,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9772.5723864993197,
                             DurationInSeconds = 2942.2623919762705,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6187,7 +6192,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6593.7419607252968,
                             DurationInSeconds = 2815.9119851758387,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6195,7 +6200,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1439.4469355175845,
                             DurationInSeconds = 8320.0185205579073,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6203,7 +6208,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5090.0643692905815,
                             DurationInSeconds = 7060.7973440645828,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6211,7 +6216,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8017.4716481417927,
                             DurationInSeconds = 9264.3132774379374,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6219,7 +6224,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9574.5575754807705,
                             DurationInSeconds = 386.27346066924872,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6227,7 +6232,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3568.1758010550402,
                             DurationInSeconds = 18758.660941120772,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6235,7 +6240,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3331.3807901833252,
                             DurationInSeconds = 4206.4554888426937,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6243,7 +6248,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 969.12807338007974,
                             DurationInSeconds = 5919.8206765110781,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6251,7 +6256,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5055.966996629294,
                             DurationInSeconds = 18110.713483388914,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6259,7 +6264,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8317.8118134727047,
                             DurationInSeconds = 1086.8321503188872,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6267,7 +6272,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1897.0743459192706,
                             DurationInSeconds = 11083.800886546423,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6275,7 +6280,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9863.2338021827509,
                             DurationInSeconds = 10724.699883571617,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6283,7 +6288,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4731.4175651133501,
                             DurationInSeconds = 13586.371342773911,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6291,7 +6296,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5730.7815951082457,
                             DurationInSeconds = 16589.19864904655,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6299,7 +6304,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7165.758530264161,
                             DurationInSeconds = 17743.991459620654,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6307,7 +6312,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9408.4667722243867,
                             DurationInSeconds = 17926.282402413923,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6315,7 +6320,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5311.852422300035,
                             DurationInSeconds = 151.88711737414246,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6323,7 +6328,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8867.88640321803,
                             DurationInSeconds = 3099.2496997993544,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6331,7 +6336,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1467.762118610159,
                             DurationInSeconds = 8599.0211965466551,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6339,7 +6344,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2562.4843433696769,
                             DurationInSeconds = 19455.213955273219,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6347,7 +6352,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2566.6948455789116,
                             DurationInSeconds = 17496.425424302815,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6355,7 +6360,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7122.0329832973766,
                             DurationInSeconds = 16686.401065997834,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6363,7 +6368,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2868.3366662903227,
                             DurationInSeconds = 11767.03181945225,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6371,7 +6376,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 1, 31, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5470.5545759206316,
                             DurationInSeconds = 13704.087035088023,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6379,7 +6384,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2124.1573242930685,
                             DurationInSeconds = 5923.3445375252022,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6387,7 +6392,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5689.4023932702958,
                             DurationInSeconds = 14665.742087441504,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6395,7 +6400,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8161.2211873191982,
                             DurationInSeconds = 8544.5633275830187,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6403,7 +6408,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6172.9886452306855,
                             DurationInSeconds = 5604.5018666662127,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6411,7 +6416,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8562.6943950622535,
                             DurationInSeconds = 13569.38993844566,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6419,7 +6424,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7366.3621953126012,
                             DurationInSeconds = 10579.42570619992,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6427,7 +6432,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5201.6965501991472,
                             DurationInSeconds = 11441.627015604154,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6435,7 +6440,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6834.6891066609251,
                             DurationInSeconds = 2516.1537730676009,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6443,7 +6448,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5383.0637337018898,
                             DurationInSeconds = 6100.034317785633,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6451,7 +6456,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5498.4652583181742,
                             DurationInSeconds = 13942.314002947409,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6459,7 +6464,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 908.45771730528759,
                             DurationInSeconds = 10299.054871127184,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6467,7 +6472,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6633.3551614232692,
                             DurationInSeconds = 10039.328579657073,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6475,7 +6480,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3855.4444434506231,
                             DurationInSeconds = 13271.41718018085,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6483,7 +6488,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4791.7234435383334,
                             DurationInSeconds = 18796.424157247016,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6491,7 +6496,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9894.7091127672102,
                             DurationInSeconds = 5933.7936765261193,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6499,7 +6504,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6559.5999116549719,
                             DurationInSeconds = 11984.386666689245,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6507,7 +6512,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5060.6335718859928,
                             DurationInSeconds = 17576.915889900676,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6515,7 +6520,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8336.6206434464657,
                             DurationInSeconds = 2016.0184925405181,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6523,7 +6528,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 847.08066749776151,
                             DurationInSeconds = 10210.985444565573,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6531,7 +6536,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9068.085795899191,
                             DurationInSeconds = 6366.9571529554541,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6539,7 +6544,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8138.5742103221355,
                             DurationInSeconds = 8911.6210753079667,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6547,7 +6552,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9205.0215673924813,
                             DurationInSeconds = 13800.794002410294,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6555,7 +6560,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1576.8764011446372,
                             DurationInSeconds = 2260.8629335442051,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6563,7 +6568,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6490.1873706393089,
                             DurationInSeconds = 11597.78060663528,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6571,7 +6576,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 1, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5550.3847289909654,
                             DurationInSeconds = 12717.771357732858,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6579,7 +6584,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1538.5959502318876,
                             DurationInSeconds = 8715.2546900798297,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6587,7 +6592,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6952.4792396112944,
                             DurationInSeconds = 19814.394644564261,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6595,7 +6600,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2811.9353341105029,
                             DurationInSeconds = 6244.5543489905986,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6603,7 +6608,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3881.0028211121339,
                             DurationInSeconds = 12525.197443519713,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6611,7 +6616,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4437.6399582028098,
                             DurationInSeconds = 11957.737961352579,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6619,7 +6624,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 748.90767941988702,
                             DurationInSeconds = 4994.9928051102779,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6627,7 +6632,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9022.7871416096896,
                             DurationInSeconds = 14224.262003977892,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6635,7 +6640,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7392.2474464660136,
                             DurationInSeconds = 9294.8014215526127,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6643,7 +6648,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7221.6247643680135,
                             DurationInSeconds = 16170.87615918186,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6651,7 +6656,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4977.1651333998107,
                             DurationInSeconds = 2344.5719756176859,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6659,7 +6664,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7427.372482884286,
                             DurationInSeconds = 16283.580889038938,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6667,7 +6672,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6920.0728943173299,
                             DurationInSeconds = 18011.70820922952,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6675,7 +6680,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2766.5085830904568,
                             DurationInSeconds = 4181.881949113972,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6683,7 +6688,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4858.2525203259884,
                             DurationInSeconds = 15718.218678189389,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6691,7 +6696,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9317.7593930364183,
                             DurationInSeconds = 9841.60030183872,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6699,7 +6704,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8097.172460056503,
                             DurationInSeconds = 4606.3913008952868,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6707,7 +6712,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8996.0183517255427,
                             DurationInSeconds = 5780.9800179028762,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6715,7 +6720,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7820.0343218783246,
                             DurationInSeconds = 2650.3522770919462,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6723,7 +6728,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2434.9658753971626,
                             DurationInSeconds = 17661.030402852801,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6731,7 +6736,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6369.1213692600295,
                             DurationInSeconds = 6236.5108891474747,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6739,7 +6744,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3764.4743757942283,
                             DurationInSeconds = 18591.275447894706,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6747,7 +6752,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3067.8095813212399,
                             DurationInSeconds = 1255.9365086873802,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6755,7 +6760,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8917.8570968441727,
                             DurationInSeconds = 11575.92026787909,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6763,7 +6768,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4618.9897246133905,
                             DurationInSeconds = 14717.754338390494,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6771,7 +6776,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 2, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3129.8321098392153,
                             DurationInSeconds = 3021.2899290632972,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6779,7 +6784,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6337.9407491211077,
                             DurationInSeconds = 12729.683247066259,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6787,7 +6792,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3240.7952946711052,
                             DurationInSeconds = 10296.074577551411,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6795,7 +6800,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7940.9645256758022,
                             DurationInSeconds = 13056.201960013294,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6803,7 +6808,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3516.3058487738313,
                             DurationInSeconds = 15598.005460699947,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6811,7 +6816,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9423.4670661340533,
                             DurationInSeconds = 13336.059049877065,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6819,7 +6824,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3290.2951509173481,
                             DurationInSeconds = 19254.527417359055,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6827,7 +6832,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8393.3512973973484,
                             DurationInSeconds = 4922.6790038490099,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6835,7 +6840,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9773.8985276277726,
                             DurationInSeconds = 11426.18413096881,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6843,7 +6848,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1331.6239870965326,
                             DurationInSeconds = 8654.9990997187633,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6851,7 +6856,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6189.1039576467192,
                             DurationInSeconds = 15615.798616695698,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6859,7 +6864,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4652.8590152638581,
                             DurationInSeconds = 5173.0194245121329,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6867,7 +6872,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3663.0518717305004,
                             DurationInSeconds = 3839.4449870159419,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6875,7 +6880,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9958.7625559970875,
                             DurationInSeconds = 3007.0011498792505,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6883,7 +6888,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3783.7923140101748,
                             DurationInSeconds = 7403.8647100273456,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6891,7 +6896,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4125.4614116232742,
                             DurationInSeconds = 4648.9219953837728,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6899,7 +6904,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6705.1332503918993,
                             DurationInSeconds = 1247.9770502156389,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6907,7 +6912,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 383.70599415220732,
                             DurationInSeconds = 9754.3827800769377,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6915,7 +6920,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9162.5347047039741,
                             DurationInSeconds = 14346.751463977047,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6923,7 +6928,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4193.5194847108387,
                             DurationInSeconds = 4401.8315093474121,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6931,7 +6936,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2686.3289356892105,
                             DurationInSeconds = 9341.3772530106762,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6939,7 +6944,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6545.145493090633,
                             DurationInSeconds = 19977.856878546747,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6947,7 +6952,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7657.5513912192946,
                             DurationInSeconds = 925.55731864901998,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6955,7 +6960,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5812.2426939342413,
                             DurationInSeconds = 10721.21567202906,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6963,7 +6968,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4010.4479740726092,
                             DurationInSeconds = 1996.2771144790436,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6971,7 +6976,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 3, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1650.8138874886886,
                             DurationInSeconds = 18308.825550637597,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -6979,7 +6984,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3099.4873346836798,
                             DurationInSeconds = 9849.3679436846705,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -6987,7 +6992,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 0, 57, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 5309.1288297955934,
                             DurationInSeconds = 15940.994744359647,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -6995,7 +7000,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 1, 55, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2162.9609058839669,
                             DurationInSeconds = 1891.3126953384219,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -7003,7 +7008,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 2, 52, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8552.4814862444091,
                             DurationInSeconds = 324.27245989291356,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -7011,7 +7016,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 3, 50, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2299.0626424658772,
                             DurationInSeconds = 12403.087299925019,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -7019,7 +7024,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8387.9400823787655,
                             DurationInSeconds = 14766.357848162605,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -7027,7 +7032,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 5, 45, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4155.200904221414,
                             DurationInSeconds = 12996.005120815953,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -7035,7 +7040,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 6, 43, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2169.0669317204697,
                             DurationInSeconds = 13809.084803718022,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -7043,7 +7048,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 7, 40, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 2037.7160945131172,
                             DurationInSeconds = 2239.6105693202135,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -7051,7 +7056,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 8, 38, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7492.0879901346352,
                             DurationInSeconds = 11494.482681514326,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -7059,7 +7064,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 1778.4948084107191,
                             DurationInSeconds = 13368.276550733184,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -7067,7 +7072,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 10, 33, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3487.1708311833195,
                             DurationInSeconds = 2442.7342770967875,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -7075,7 +7080,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 11, 31, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7326.6290425746338,
                             DurationInSeconds = 5443.8304597157039,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -7083,7 +7088,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 12, 28, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 428.7740464198049,
                             DurationInSeconds = 15787.978108442221,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -7091,7 +7096,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 13, 26, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4609.9235917935403,
                             DurationInSeconds = 7158.7913367743276,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -7099,7 +7104,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3469.7632190544241,
                             DurationInSeconds = 11137.766655960273,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -7107,7 +7112,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 15, 21, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 8324.8547982599084,
                             DurationInSeconds = 15489.349868163828,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -7115,7 +7120,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 16, 19, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4010.8580943040579,
                             DurationInSeconds = 8688.2402660779298,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -7123,7 +7128,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 17, 16, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 422.15049461576893,
                             DurationInSeconds = 4338.51625280384,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -7131,7 +7136,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 18, 14, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 4333.2234095722051,
                             DurationInSeconds = 11780.105415236809,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -7139,7 +7144,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3786.6263337079317,
                             DurationInSeconds = 8192.7017287738418,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -7147,7 +7152,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 20, 9, 36, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 6182.4883839389859,
                             DurationInSeconds = 15164.852692753801,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -7155,7 +7160,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 21, 7, 12, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 7268.173232768484,
                             DurationInSeconds = 8737.250650817572,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         },
                         new
                         {
@@ -7163,7 +7168,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 22, 4, 48, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 9283.1808814724445,
                             DurationInSeconds = 8344.0135711752537,
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740"
                         },
                         new
                         {
@@ -7171,7 +7176,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 4, 23, 2, 24, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 3459.9711745290679,
                             DurationInSeconds = 11618.588718534966,
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26"
                         },
                         new
                         {
@@ -7179,7 +7184,7 @@ namespace Jogging_Tracker.Migrations
                             Date = new DateTime(2022, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DistanceInMeters = 972.76399694240627,
                             DurationInSeconds = 9677.6161549700792,
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1"
                         });
                 });
 
@@ -7211,22 +7216,22 @@ namespace Jogging_Tracker.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "3732a41f-a669-442f-9b90-9f3d75718f78",
-                            ConcurrencyStamp = "7128477d-4126-4ed2-9ae0-fa7168ef5add",
+                            Id = "72c1c2f6-ab28-4340-91fb-24cb2c9d78b5",
+                            ConcurrencyStamp = "a98afe65-8152-4d9d-a335-70bfb6e37b12",
                             Name = "UserManager",
                             NormalizedName = "USERMANAGER"
                         },
                         new
                         {
-                            Id = "eae08be2-ed52-4dfb-9f0c-da151399e8fa",
-                            ConcurrencyStamp = "ff4d4814-20f3-4271-b854-2cb970c36d51",
+                            Id = "1c46e283-78f2-4929-8340-fe49787460ed",
+                            ConcurrencyStamp = "d238de27-1851-4a2a-b226-e835f1948ad5",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "e8ade731-42c8-4ff8-b16e-19a0321481f9",
-                            ConcurrencyStamp = "635b4818-ade8-467c-8a98-ca322ad767ba",
+                            Id = "14f13989-46a9-4ade-bff4-db1d7ec1d1c5",
+                            ConcurrencyStamp = "4f14e735-c05f-4a05-bb75-808930447618",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -7319,28 +7324,28 @@ namespace Jogging_Tracker.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "6e5e2546-7472-4f68-9ee0-72ea5fc447ae",
-                            RoleId = "3732a41f-a669-442f-9b90-9f3d75718f78"
+                            UserId = "4fc7912a-7ee7-4fe4-8601-31bbb66471b0",
+                            RoleId = "72c1c2f6-ab28-4340-91fb-24cb2c9d78b5"
                         },
                         new
                         {
-                            UserId = "8de2108f-9c3a-4d05-a411-bb9a2ce9cf02",
-                            RoleId = "eae08be2-ed52-4dfb-9f0c-da151399e8fa"
+                            UserId = "19242af9-3fce-449e-a1ea-5c5b8265cd1e",
+                            RoleId = "1c46e283-78f2-4929-8340-fe49787460ed"
                         },
                         new
                         {
-                            UserId = "16abd476-7203-4def-8d29-027bfca18427",
-                            RoleId = "e8ade731-42c8-4ff8-b16e-19a0321481f9"
+                            UserId = "2db2e132-2711-4da3-80d4-e85bc1586b26",
+                            RoleId = "14f13989-46a9-4ade-bff4-db1d7ec1d1c5"
                         },
                         new
                         {
-                            UserId = "364bded4-0829-495b-bb84-b1b32c81d0e3",
-                            RoleId = "e8ade731-42c8-4ff8-b16e-19a0321481f9"
+                            UserId = "1dbb6a2e-81bc-4650-bdfc-84ec80b960f1",
+                            RoleId = "14f13989-46a9-4ade-bff4-db1d7ec1d1c5"
                         },
                         new
                         {
-                            UserId = "20843ab6-8627-42b4-b1c7-0ecd49bcd262",
-                            RoleId = "e8ade731-42c8-4ff8-b16e-19a0321481f9"
+                            UserId = "19815a91-4177-44d9-b76c-97e70fe4b740",
+                            RoleId = "14f13989-46a9-4ade-bff4-db1d7ec1d1c5"
                         });
                 });
 
