@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
@@ -31,6 +33,20 @@ namespace Jogging_Tracker.Controllers
         {
             _dbContext = dbContext;
             _mapper = mapper;
+        }
+
+        /// <summary>
+        /// To test the API if it works.
+        /// </summary>
+        [HttpGet]
+        [Route("home")]
+        [AllowAnonymous]
+        public IActionResult Home()
+        {
+            return Ok(GetReport("24391000-0a63-4bb1-971f-7611dd87d9f6",new GetJoggingRecordsDateFilter()
+            {
+                From = new DateTime(2022,1,20)
+            }));
         }
 
         /// <summary>
@@ -67,16 +83,17 @@ namespace Jogging_Tracker.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
         [Authorize(Roles = UserRoles.User)]
-        public ActionResult<IEnumerable<JoggingRecordDto>> GetMyJogging([FromQuery]GetJoggingRecordsDateFilter filter)
+        public ActionResult<IEnumerable<JoggingRecordDto>> GetMyJogging([FromQuery] GetJoggingRecordsDateFilter filter)
         {
             var userId = GetUserIds(Request);
             return Ok(GetJogging(userId, filter));
         }
 
         /// <summary>
-        /// Get jogging records of a user.
+        /// Get jogging records of a user and filter them.
         /// </summary>
         /// <param name="userId">The record to be added</param>
+        /// <param name="filter">The record to be added</param>
         /// <response code="200">Returned if the computer inserted successfully</response>
         /// <response code="500">Returned if an internal server error</response>
         [HttpGet]
@@ -84,9 +101,10 @@ namespace Jogging_Tracker.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
         [Authorize(Roles = UserRoles.Admin)]
-        public ActionResult<IEnumerable<JoggingRecordDto>> GetUserJogging(string userId,[FromQuery]GetJoggingRecordsDateFilter filter)
+        public ActionResult<IEnumerable<JoggingRecordDto>> GetUserJogging(string userId,
+            [FromQuery] GetJoggingRecordsDateFilter filter)
         {
-            return Ok(GetJogging(userId,filter));
+            return Ok(GetJogging(userId, filter));
         }
 
         /// <summary>
@@ -102,7 +120,7 @@ namespace Jogging_Tracker.Controllers
             var userId = jsonToken?.Claims.First(claim => claim.Type == "UserId").Value;
             return userId;
         }
-        
+
         /// <summary>
         /// Gets jogging records of a specified user given user id and filter to filter records on.
         /// </summary>
@@ -115,6 +133,20 @@ namespace Jogging_Tracker.Controllers
                 .Where(x => x.UserId.Equals(userId) && x.Date >= filter.From && x.Date <= filter.To)
                 .Select(x => _mapper.Map<JoggingRecordDto>(x));
         }
-        
+
+        private IEnumerable<JoggingRecordReport> GetReport(string userId, GetJoggingRecordsDateFilter filter)
+        {
+            return _dbContext.JoggingRecords
+                .Where(x => x.UserId.Equals(userId) && x.Date >= filter.From && x.Date <= filter.To).AsEnumerable()
+                .GroupBy(x => CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(x.Date, CalendarWeekRule.FirstDay,
+                    DayOfWeek.Monday)).Select(x => new
+                {
+                    Week = x.Key, Distance = x.Average(y => y.DistanceInMeters),
+                    Duration = x.Average(y => y.DurationInSeconds)
+                }).Select(x => new JoggingRecordReport()
+                {
+                    WeekNumber = x.Week, AverageDistance = x.Distance, AverageSpeed = x.Distance / x.Duration
+                }).ToList();
+        }
     }
 }

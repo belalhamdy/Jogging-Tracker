@@ -50,18 +50,7 @@ namespace Jogging_Tracker.Controllers
             _mapper = mapper;
             Configuration = configuration;
         }
-
-        /// <summary>
-        /// To test the API if it works.
-        /// </summary>
-        [HttpGet]
-        [Route("home")]
-        [AllowAnonymous]
-        public IActionResult Home()
-        {
-            return Ok();
-        }
-
+        
         /// <summary>
         /// Registers a normal user to the system.
         /// </summary>
