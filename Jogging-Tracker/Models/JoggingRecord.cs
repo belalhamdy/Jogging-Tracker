@@ -17,7 +17,11 @@ namespace Jogging_Tracker.Models
         public string UserId { get; set; }
         public virtual ApplicationUser User { get; set; } //ForeignKey
         public DateTime Date { get; set; }
+        
+        [Range(1, double.MaxValue, ErrorMessage = "Only positive number allowed")]
         public double DurationInSeconds { get; set; }
+        
+        [Range(1, double.MaxValue, ErrorMessage = "Only positive number allowed")]
         public double DistanceInMeters { get; set; }
     }
 }
