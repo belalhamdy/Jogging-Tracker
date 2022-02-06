@@ -1,4 +1,5 @@
 # Jogging-Tracker
+
 RESTful API that tracks jogging times of users. Task for SwiftX as Junior Backend developer.
 
 # Functionality requirements
