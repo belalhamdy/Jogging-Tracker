@@ -67,11 +67,10 @@ namespace Jogging_Tracker.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
         [Authorize(Roles = UserRoles.User)]
-        public ActionResult<IEnumerable<JoggingRecordDto>> GetMyJogging()
+        public ActionResult<IEnumerable<JoggingRecordDto>> GetMyJogging([FromQuery]GetJoggingRecordsDateFilter filter)
         {
             var userId = GetUserIds(Request);
-            return Ok(_dbContext.JoggingRecords.Where(x => x.UserId.Equals(userId))
-                .Select(x => _mapper.Map<JoggingRecordDto>(x)));
+            return Ok(GetJogging(userId, filter));
         }
 
         /// <summary>
@@ -85,10 +84,9 @@ namespace Jogging_Tracker.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status406NotAcceptable)]
         [Authorize(Roles = UserRoles.Admin)]
-        public ActionResult<IEnumerable<JoggingRecordDto>> GetMyJogging(string userId)
+        public ActionResult<IEnumerable<JoggingRecordDto>> GetUserJogging(string userId,[FromQuery]GetJoggingRecordsDateFilter filter)
         {
-            return Ok(_dbContext.JoggingRecords.Where(x => x.UserId.Equals(userId))
-                .Select(x => _mapper.Map<JoggingRecordDto>(x)));
+            return Ok(GetJogging(userId,filter));
         }
 
         /// <summary>
@@ -104,5 +102,19 @@ namespace Jogging_Tracker.Controllers
             var userId = jsonToken?.Claims.First(claim => claim.Type == "UserId").Value;
             return userId;
         }
+        
+        /// <summary>
+        /// Gets jogging records of a specified user given user id and filter to filter records on.
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <param name="filter"></param>
+        /// <returns></returns>
+        private IEnumerable<JoggingRecordDto> GetJogging(string userId, GetJoggingRecordsDateFilter filter)
+        {
+            return _dbContext.JoggingRecords
+                .Where(x => x.UserId.Equals(userId) && x.Date >= filter.From && x.Date <= filter.To)
+                .Select(x => _mapper.Map<JoggingRecordDto>(x));
+        }
+        
     }
 }
